@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from moveit_ywf_msg/action/MoveitYwfIntf.action
+// generated code does not contain a copyright notice
+
+
+module moveit_ywf_msg {
+  module action {
+    struct MoveitYwfIntf_Goal {
+      string order;
+    };
+    struct MoveitYwfIntf_Result {
+      string result;
+    };
+    struct MoveitYwfIntf_Feedback {
+      string feedback;
+    };
+  };
+};

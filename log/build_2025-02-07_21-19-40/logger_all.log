@@ -1,0 +1,336 @@
+[0.336s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.336s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7244b173ad40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7244b173a6b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7244b173a6b0>>, mixin_verb=('build',))
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.785s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/st/ywfBot_ws'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/fr_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/fr_ros2) by extension 'ignore'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/fr_ros2) by extension 'ignore_ament_install'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/fr_ros2) by extensions ['colcon_pkg']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/fr_ros2) by extension 'colcon_pkg'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/fr_ros2) by extensions ['colcon_meta']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/fr_ros2) by extension 'colcon_meta'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/fr_ros2) by extensions ['ros']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/fr_ros2) by extension 'ros'
+[0.824s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fr_ros2' with type 'ros.ament_cmake' and name 'fr_ros2'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/frhal_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/frhal_msgs) by extension 'ignore'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/frhal_msgs) by extension 'ignore_ament_install'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/frhal_msgs) by extensions ['colcon_pkg']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/frhal_msgs) by extension 'colcon_pkg'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/frhal_msgs) by extensions ['colcon_meta']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/frhal_msgs) by extension 'colcon_meta'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/frhal_msgs) by extensions ['ros']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/frhal_msgs) by extension 'ros'
+[0.827s] DEBUG:colcon.colcon_core.package_identification:Package 'src/frhal_msgs' with type 'ros.ament_cmake' and name 'frhal_msgs'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_ywf_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_ywf_interface) by extension 'ignore'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_ywf_interface) by extension 'ignore_ament_install'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_ywf_interface) by extensions ['colcon_pkg']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_ywf_interface) by extension 'colcon_pkg'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_ywf_interface) by extensions ['colcon_meta']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_ywf_interface) by extension 'colcon_meta'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_ywf_interface) by extensions ['ros']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_ywf_interface) by extension 'ros'
+[0.830s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit2_ywf_interface' with type 'ros.ament_cmake' and name 'moveit2_ywf_interface'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ywf_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ywf_msg) by extension 'ignore'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ywf_msg) by extension 'ignore_ament_install'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ywf_msg) by extensions ['colcon_pkg']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ywf_msg) by extension 'colcon_pkg'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ywf_msg) by extensions ['colcon_meta']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ywf_msg) by extension 'colcon_meta'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ywf_msg) by extensions ['ros']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ywf_msg) by extension 'ros'
+[0.833s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_ywf_msg' with type 'ros.ament_cmake' and name 'moveit_ywf_msg'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action) by extensions ['ignore', 'ignore_ament_install']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action) by extension 'ignore'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action) by extension 'ignore_ament_install'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action) by extensions ['colcon_pkg']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action) by extension 'colcon_pkg'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action) by extensions ['colcon_meta']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action) by extension 'colcon_meta'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action) by extensions ['ros']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action) by extension 'ros'
+[0.835s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_action' with type 'ros.ament_python' and name 'py_action'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_client) by extensions ['ignore', 'ignore_ament_install']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_client) by extension 'ignore'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_client) by extension 'ignore_ament_install'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_client) by extensions ['colcon_pkg']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_client) by extension 'colcon_pkg'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_client) by extensions ['colcon_meta']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_client) by extension 'colcon_meta'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_client) by extensions ['ros']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_client) by extension 'ros'
+[0.837s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_action_client' with type 'ros.ament_python' and name 'py_action_client'
+[0.837s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.837s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.837s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.837s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.837s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.901s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.901s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.930s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.934s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'frhal_msgs' build argument 'cmake_args' from command line to 'None'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'frhal_msgs' build argument 'cmake_target' from command line to 'None'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'frhal_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'frhal_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'frhal_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'frhal_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'frhal_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'frhal_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'frhal_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.027s] DEBUG:colcon.colcon_core.verb:Building package 'frhal_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/st/ywfBot_ws/build/frhal_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/st/ywfBot_ws/install/frhal_msgs', 'merge_install': False, 'path': '/home/st/ywfBot_ws/src/frhal_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'moveit_ywf_msg' build argument 'cmake_args' from command line to 'None'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'moveit_ywf_msg' build argument 'cmake_target' from command line to 'None'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'moveit_ywf_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'moveit_ywf_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'moveit_ywf_msg' build argument 'cmake_clean_first' from command line to 'False'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'moveit_ywf_msg' build argument 'cmake_force_configure' from command line to 'False'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'moveit_ywf_msg' build argument 'ament_cmake_args' from command line to 'None'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'moveit_ywf_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'moveit_ywf_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.028s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_ywf_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/st/ywfBot_ws/build/moveit_ywf_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/st/ywfBot_ws/install/moveit_ywf_msg', 'merge_install': False, 'path': '/home/st/ywfBot_ws/src/moveit_ywf_msg', 'symlink_install': False, 'test_result_base': None}
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'py_action' build argument 'cmake_args' from command line to 'None'
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'py_action' build argument 'cmake_target' from command line to 'None'
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'py_action' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'py_action' build argument 'cmake_clean_cache' from command line to 'False'
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'py_action' build argument 'cmake_clean_first' from command line to 'False'
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'py_action' build argument 'cmake_force_configure' from command line to 'False'
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'py_action' build argument 'ament_cmake_args' from command line to 'None'
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'py_action' build argument 'catkin_cmake_args' from command line to 'None'
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'py_action' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.030s] DEBUG:colcon.colcon_core.verb:Building package 'py_action' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/st/ywfBot_ws/build/py_action', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/st/ywfBot_ws/install/py_action', 'merge_install': False, 'path': '/home/st/ywfBot_ws/src/py_action', 'symlink_install': False, 'test_result_base': None}
+[1.030s] Level 5:colcon.colcon_core.verb:set package 'py_action_client' build argument 'cmake_args' from command line to 'None'
+[1.030s] Level 5:colcon.colcon_core.verb:set package 'py_action_client' build argument 'cmake_target' from command line to 'None'
+[1.030s] Level 5:colcon.colcon_core.verb:set package 'py_action_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.030s] Level 5:colcon.colcon_core.verb:set package 'py_action_client' build argument 'cmake_clean_cache' from command line to 'False'
+[1.031s] Level 5:colcon.colcon_core.verb:set package 'py_action_client' build argument 'cmake_clean_first' from command line to 'False'
+[1.031s] Level 5:colcon.colcon_core.verb:set package 'py_action_client' build argument 'cmake_force_configure' from command line to 'False'
+[1.031s] Level 5:colcon.colcon_core.verb:set package 'py_action_client' build argument 'ament_cmake_args' from command line to 'None'
+[1.031s] Level 5:colcon.colcon_core.verb:set package 'py_action_client' build argument 'catkin_cmake_args' from command line to 'None'
+[1.031s] Level 5:colcon.colcon_core.verb:set package 'py_action_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.031s] DEBUG:colcon.colcon_core.verb:Building package 'py_action_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/st/ywfBot_ws/build/py_action_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/st/ywfBot_ws/install/py_action_client', 'merge_install': False, 'path': '/home/st/ywfBot_ws/src/py_action_client', 'symlink_install': False, 'test_result_base': None}
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'fr_ros2' build argument 'cmake_args' from command line to 'None'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'fr_ros2' build argument 'cmake_target' from command line to 'None'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'fr_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'fr_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'fr_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'fr_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'fr_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'fr_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'fr_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.032s] DEBUG:colcon.colcon_core.verb:Building package 'fr_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/st/ywfBot_ws/build/fr_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/st/ywfBot_ws/install/fr_ros2', 'merge_install': False, 'path': '/home/st/ywfBot_ws/src/fr_ros2', 'symlink_install': False, 'test_result_base': None}
+[1.033s] Level 5:colcon.colcon_core.verb:set package 'moveit2_ywf_interface' build argument 'cmake_args' from command line to 'None'
+[1.033s] Level 5:colcon.colcon_core.verb:set package 'moveit2_ywf_interface' build argument 'cmake_target' from command line to 'None'
+[1.033s] Level 5:colcon.colcon_core.verb:set package 'moveit2_ywf_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.033s] Level 5:colcon.colcon_core.verb:set package 'moveit2_ywf_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[1.033s] Level 5:colcon.colcon_core.verb:set package 'moveit2_ywf_interface' build argument 'cmake_clean_first' from command line to 'False'
+[1.033s] Level 5:colcon.colcon_core.verb:set package 'moveit2_ywf_interface' build argument 'cmake_force_configure' from command line to 'False'
+[1.033s] Level 5:colcon.colcon_core.verb:set package 'moveit2_ywf_interface' build argument 'ament_cmake_args' from command line to 'None'
+[1.033s] Level 5:colcon.colcon_core.verb:set package 'moveit2_ywf_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[1.033s] Level 5:colcon.colcon_core.verb:set package 'moveit2_ywf_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.033s] DEBUG:colcon.colcon_core.verb:Building package 'moveit2_ywf_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/st/ywfBot_ws/build/moveit2_ywf_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/st/ywfBot_ws/install/moveit2_ywf_interface', 'merge_install': False, 'path': '/home/st/ywfBot_ws/src/moveit2_ywf_interface', 'symlink_install': False, 'test_result_base': None}
+[1.034s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.037s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.038s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/st/ywfBot_ws/src/frhal_msgs' with build type 'ament_cmake'
+[1.038s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/st/ywfBot_ws/src/frhal_msgs'
+[1.042s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.042s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.042s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.049s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/st/ywfBot_ws/src/moveit_ywf_msg' with build type 'ament_cmake'
+[1.050s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/st/ywfBot_ws/src/moveit_ywf_msg'
+[1.050s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.050s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.057s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/st/ywfBot_ws/src/py_action' with build type 'ament_python'
+[1.058s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_action', 'ament_prefix_path')
+[1.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/st/ywfBot_ws/install/py_action/share/py_action/hook/ament_prefix_path.ps1'
+[1.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/st/ywfBot_ws/install/py_action/share/py_action/hook/ament_prefix_path.dsv'
+[1.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/st/ywfBot_ws/install/py_action/share/py_action/hook/ament_prefix_path.sh'
+[1.063s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.063s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.070s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/st/ywfBot_ws/src/py_action_client' with build type 'ament_python'
+[1.070s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_action_client', 'ament_prefix_path')
+[1.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/st/ywfBot_ws/install/py_action_client/share/py_action_client/hook/ament_prefix_path.ps1'
+[1.072s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/st/ywfBot_ws/install/py_action_client/share/py_action_client/hook/ament_prefix_path.dsv'
+[1.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/st/ywfBot_ws/install/py_action_client/share/py_action_client/hook/ament_prefix_path.sh'
+[1.073s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.073s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.116s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/st/ywfBot_ws/build/frhal_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/st/ywfBot_ws/src/frhal_msgs -DCMAKE_INSTALL_PREFIX=/home/st/ywfBot_ws/install/frhal_msgs
+[1.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/st/ywfBot_ws/build/moveit_ywf_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/st/ywfBot_ws/src/moveit_ywf_msg -DCMAKE_INSTALL_PREFIX=/home/st/ywfBot_ws/install/moveit_ywf_msg
+[1.802s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/st/ywfBot_ws/src/py_action'
+[1.803s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.803s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.471s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/st/ywfBot_ws/src/py_action_client'
+[2.472s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.472s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/st/ywfBot_ws/src/py_action': PYTHONPATH=/home/st/ywfBot_ws/build/py_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/st/ywfBot_ws/install/py_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_action build --build-base /home/st/ywfBot_ws/build/py_action/build install --record /home/st/ywfBot_ws/build/py_action/install.log --single-version-externally-managed install_data
+[3.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/st/ywfBot_ws/src/py_action_client': PYTHONPATH=/home/st/ywfBot_ws/build/py_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/st/ywfBot_ws/install/py_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_action_client build --build-base /home/st/ywfBot_ws/build/py_action_client/build install --record /home/st/ywfBot_ws/build/py_action_client/install.log --single-version-externally-managed install_data
+[4.035s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/py_action' for CMake module files
+[4.036s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/py_action' for CMake config files
+[4.039s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/py_action/lib'
+[4.039s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/py_action/bin'
+[4.039s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/py_action/lib/pkgconfig/py_action.pc'
+[4.040s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/py_action/lib/python3.10/site-packages'
+[4.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_action', 'pythonpath')
+[4.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/st/ywfBot_ws/install/py_action/share/py_action/hook/pythonpath.ps1'
+[4.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/st/ywfBot_ws/src/py_action' returned '0': PYTHONPATH=/home/st/ywfBot_ws/build/py_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/st/ywfBot_ws/install/py_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_action build --build-base /home/st/ywfBot_ws/build/py_action/build install --record /home/st/ywfBot_ws/build/py_action/install.log --single-version-externally-managed install_data
+[4.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/st/ywfBot_ws/install/py_action/share/py_action/hook/pythonpath.dsv'
+[4.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/st/ywfBot_ws/install/py_action/share/py_action/hook/pythonpath.sh'
+[4.046s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/py_action/bin'
+[4.046s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_action)
+[4.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/st/ywfBot_ws/install/py_action/share/py_action/package.ps1'
+[4.049s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/st/ywfBot_ws/install/py_action/share/py_action/package.dsv'
+[4.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/st/ywfBot_ws/install/py_action/share/py_action/package.sh'
+[4.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/st/ywfBot_ws/install/py_action/share/py_action/package.bash'
+[4.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/st/ywfBot_ws/install/py_action/share/py_action/package.zsh'
+[4.054s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/st/ywfBot_ws/install/py_action/share/colcon-core/packages/py_action)
+[4.078s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/py_action_client' for CMake module files
+[4.079s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/py_action_client' for CMake config files
+[4.080s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/py_action_client/lib'
+[4.080s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/py_action_client/bin'
+[4.080s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/py_action_client/lib/pkgconfig/py_action_client.pc'
+[4.081s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/py_action_client/lib/python3.10/site-packages'
+[4.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_action_client', 'pythonpath')
+[4.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/st/ywfBot_ws/install/py_action_client/share/py_action_client/hook/pythonpath.ps1'
+[4.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/st/ywfBot_ws/install/py_action_client/share/py_action_client/hook/pythonpath.dsv'
+[4.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/st/ywfBot_ws/install/py_action_client/share/py_action_client/hook/pythonpath.sh'
+[4.084s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/py_action_client/bin'
+[4.084s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_action_client)
+[4.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/st/ywfBot_ws/install/py_action_client/share/py_action_client/package.ps1'
+[4.086s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/st/ywfBot_ws/install/py_action_client/share/py_action_client/package.dsv'
+[4.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/st/ywfBot_ws/install/py_action_client/share/py_action_client/package.sh'
+[4.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/st/ywfBot_ws/install/py_action_client/share/py_action_client/package.bash'
+[4.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/st/ywfBot_ws/install/py_action_client/share/py_action_client/package.zsh'
+[4.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/st/ywfBot_ws/src/py_action_client' returned '0': PYTHONPATH=/home/st/ywfBot_ws/build/py_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/st/ywfBot_ws/install/py_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_action_client build --build-base /home/st/ywfBot_ws/build/py_action_client/build install --record /home/st/ywfBot_ws/build/py_action_client/install.log --single-version-externally-managed install_data
+[4.090s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/st/ywfBot_ws/install/py_action_client/share/colcon-core/packages/py_action_client)
+[4.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/st/ywfBot_ws/build/frhal_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/st/ywfBot_ws/src/frhal_msgs -DCMAKE_INSTALL_PREFIX=/home/st/ywfBot_ws/install/frhal_msgs
+[4.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/st/ywfBot_ws/build/frhal_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/st/ywfBot_ws/build/frhal_msgs -- -j16 -l16
+[4.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/st/ywfBot_ws/build/moveit_ywf_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/st/ywfBot_ws/src/moveit_ywf_msg -DCMAKE_INSTALL_PREFIX=/home/st/ywfBot_ws/install/moveit_ywf_msg
+[4.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/st/ywfBot_ws/build/moveit_ywf_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/st/ywfBot_ws/build/moveit_ywf_msg -- -j16 -l16
+[12.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/st/ywfBot_ws/build/moveit_ywf_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/st/ywfBot_ws/build/moveit_ywf_msg -- -j16 -l16
+[13.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/st/ywfBot_ws/build/moveit_ywf_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/st/ywfBot_ws/build/moveit_ywf_msg
+[13.311s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_ywf_msg)
+[13.312s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/moveit_ywf_msg' for CMake module files
+[13.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/st/ywfBot_ws/build/moveit_ywf_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/st/ywfBot_ws/build/moveit_ywf_msg
+[13.315s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/moveit_ywf_msg' for CMake config files
+[13.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_ywf_msg', 'cmake_prefix_path')
+[13.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/hook/cmake_prefix_path.ps1'
+[13.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/hook/cmake_prefix_path.dsv'
+[13.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/hook/cmake_prefix_path.sh'
+[13.319s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/moveit_ywf_msg/lib'
+[13.319s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_ywf_msg', 'ld_library_path_lib')
+[13.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/hook/ld_library_path_lib.ps1'
+[13.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/hook/ld_library_path_lib.dsv'
+[13.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/hook/ld_library_path_lib.sh'
+[13.321s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/moveit_ywf_msg/bin'
+[13.321s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/moveit_ywf_msg/lib/pkgconfig/moveit_ywf_msg.pc'
+[13.322s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/moveit_ywf_msg/lib/python3.10/site-packages'
+[13.322s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/moveit_ywf_msg/bin'
+[13.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/package.ps1'
+[13.324s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/package.dsv'
+[13.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/package.sh'
+[13.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/package.bash'
+[13.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/package.zsh'
+[13.327s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/st/ywfBot_ws/install/moveit_ywf_msg/share/colcon-core/packages/moveit_ywf_msg)
+[13.752s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_ywf_msg)
+[13.753s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/moveit_ywf_msg' for CMake module files
+[13.754s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/moveit_ywf_msg' for CMake config files
+[13.756s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_ywf_msg', 'cmake_prefix_path')
+[13.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/hook/cmake_prefix_path.ps1'
+[13.757s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/hook/cmake_prefix_path.dsv'
+[13.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/hook/cmake_prefix_path.sh'
+[13.760s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/moveit_ywf_msg/lib'
+[13.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_ywf_msg', 'ld_library_path_lib')
+[13.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/hook/ld_library_path_lib.ps1'
+[13.761s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/hook/ld_library_path_lib.dsv'
+[13.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/hook/ld_library_path_lib.sh'
+[13.763s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/moveit_ywf_msg/bin'
+[13.763s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/moveit_ywf_msg/lib/pkgconfig/moveit_ywf_msg.pc'
+[13.764s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/moveit_ywf_msg/lib/python3.10/site-packages'
+[13.764s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/moveit_ywf_msg/bin'
+[13.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/package.ps1'
+[13.766s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/package.dsv'
+[13.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/package.sh'
+[13.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/package.bash'
+[13.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/package.zsh'
+[13.770s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/st/ywfBot_ws/install/moveit_ywf_msg/share/colcon-core/packages/moveit_ywf_msg)
+[13.770s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/st/ywfBot_ws/src/moveit2_ywf_interface' with build type 'ament_cmake'
+[13.770s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/st/ywfBot_ws/src/moveit2_ywf_interface'
+[13.771s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.771s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.811s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/st/ywfBot_ws/build/moveit2_ywf_interface': AMENT_PREFIX_PATH=/home/st/ywfBot_ws/install/moveit_ywf_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/st/ywfBot_ws/install/moveit_ywf_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/st/ywfBot_ws/install/moveit_ywf_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/st/ywfBot_ws/src/moveit2_ywf_interface -DCMAKE_INSTALL_PREFIX=/home/st/ywfBot_ws/install/moveit2_ywf_interface
+[15.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/st/ywfBot_ws/build/moveit2_ywf_interface' returned '1': AMENT_PREFIX_PATH=/home/st/ywfBot_ws/install/moveit_ywf_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/st/ywfBot_ws/install/moveit_ywf_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/st/ywfBot_ws/install/moveit_ywf_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/st/ywfBot_ws/src/moveit2_ywf_interface -DCMAKE_INSTALL_PREFIX=/home/st/ywfBot_ws/install/moveit2_ywf_interface
+[15.409s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit2_ywf_interface)
+[15.409s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/moveit2_ywf_interface' for CMake module files
+[15.410s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/moveit2_ywf_interface' for CMake config files
+[15.410s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/moveit2_ywf_interface/bin'
+[15.411s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/moveit2_ywf_interface/lib/pkgconfig/moveit2_ywf_interface.pc'
+[15.411s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/moveit2_ywf_interface/lib/python3.10/site-packages'
+[15.411s] Level 1:colcon.colcon_core.environment:checking '/home/st/ywfBot_ws/install/moveit2_ywf_interface/bin'
+[15.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/st/ywfBot_ws/install/moveit2_ywf_interface/share/moveit2_ywf_interface/package.ps1'
+[15.413s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/st/ywfBot_ws/install/moveit2_ywf_interface/share/moveit2_ywf_interface/package.dsv'
+[15.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/st/ywfBot_ws/install/moveit2_ywf_interface/share/moveit2_ywf_interface/package.sh'
+[15.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/st/ywfBot_ws/install/moveit2_ywf_interface/share/moveit2_ywf_interface/package.bash'
+[15.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/st/ywfBot_ws/install/moveit2_ywf_interface/share/moveit2_ywf_interface/package.zsh'
+[15.415s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/st/ywfBot_ws/install/moveit2_ywf_interface/share/colcon-core/packages/moveit2_ywf_interface)
+[15.548s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.549s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.549s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[15.549s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.563s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.563s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.564s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.705s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.706s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/st/ywfBot_ws/install/local_setup.ps1'
+[15.708s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/st/ywfBot_ws/install/_local_setup_util_ps1.py'
+[15.711s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/st/ywfBot_ws/install/setup.ps1'
+[15.712s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/st/ywfBot_ws/install/local_setup.sh'
+[15.713s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/st/ywfBot_ws/install/_local_setup_util_sh.py'
+[15.714s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/st/ywfBot_ws/install/setup.sh'
+[15.715s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/st/ywfBot_ws/install/local_setup.bash'
+[15.716s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/st/ywfBot_ws/install/setup.bash'
+[15.718s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/st/ywfBot_ws/install/local_setup.zsh'
+[15.719s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/st/ywfBot_ws/install/setup.zsh'

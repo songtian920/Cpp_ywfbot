@@ -1,0 +1,628 @@
+[0.000000] (-) TimerEvent: {}
+[0.012712] (frhal_msgs) JobQueued: {'identifier': 'frhal_msgs', 'dependencies': OrderedDict()}
+[0.012862] (moveit_ywf_msg) JobQueued: {'identifier': 'moveit_ywf_msg', 'dependencies': OrderedDict()}
+[0.012910] (py_action) JobQueued: {'identifier': 'py_action', 'dependencies': OrderedDict()}
+[0.012949] (py_action_client) JobQueued: {'identifier': 'py_action_client', 'dependencies': OrderedDict()}
+[0.012986] (fr_ros2) JobQueued: {'identifier': 'fr_ros2', 'dependencies': OrderedDict([('frhal_msgs', '/home/st/ywfBot_ws/install/frhal_msgs')])}
+[0.013030] (moveit2_ywf_interface) JobQueued: {'identifier': 'moveit2_ywf_interface', 'dependencies': OrderedDict([('moveit_ywf_msg', '/home/st/ywfBot_ws/install/moveit_ywf_msg')])}
+[0.013072] (frhal_msgs) JobStarted: {'identifier': 'frhal_msgs'}
+[0.016852] (moveit_ywf_msg) JobStarted: {'identifier': 'moveit_ywf_msg'}
+[0.024826] (py_action) JobStarted: {'identifier': 'py_action'}
+[0.044086] (py_action_client) JobStarted: {'identifier': 'py_action_client'}
+[0.074521] (frhal_msgs) JobProgress: {'identifier': 'frhal_msgs', 'progress': 'cmake'}
+[0.074627] (frhal_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/st/ywfBot_ws/src/frhal_msgs', '-DCMAKE_INSTALL_PREFIX=/home/st/ywfBot_ws/install/frhal_msgs'], 'cwd': '/home/st/ywfBot_ws/build/frhal_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'st'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/st'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2738'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5b7d4c63bde9654ae604082a67a5a836'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'st'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'st'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/home/st/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/st-virtual-machine:@/tmp/.ICE-unix/2738,unix/st-virtual-machine:/tmp/.ICE-unix/2738'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/49b5b238_b3bc_4bdc_8f5c_018982ebdf89'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BLTH12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.332'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/st/ywfBot_ws/build/frhal_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5b7d4c63bde9654ae604082a67a5a836'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.095789] (moveit_ywf_msg) JobProgress: {'identifier': 'moveit_ywf_msg', 'progress': 'cmake'}
+[0.095862] (moveit_ywf_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/st/ywfBot_ws/src/moveit_ywf_msg', '-DCMAKE_INSTALL_PREFIX=/home/st/ywfBot_ws/install/moveit_ywf_msg'], 'cwd': '/home/st/ywfBot_ws/build/moveit_ywf_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'st'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/st'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2738'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5b7d4c63bde9654ae604082a67a5a836'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'st'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'st'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/home/st/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/st-virtual-machine:@/tmp/.ICE-unix/2738,unix/st-virtual-machine:/tmp/.ICE-unix/2738'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/49b5b238_b3bc_4bdc_8f5c_018982ebdf89'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BLTH12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.332'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/st/ywfBot_ws/build/moveit_ywf_msg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5b7d4c63bde9654ae604082a67a5a836'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.101188] (-) TimerEvent: {}
+[0.212165] (-) TimerEvent: {}
+[0.319840] (-) TimerEvent: {}
+[0.429558] (-) TimerEvent: {}
+[0.552547] (-) TimerEvent: {}
+[0.662258] (-) TimerEvent: {}
+[0.775447] (-) TimerEvent: {}
+[0.781399] (frhal_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.781774] (frhal_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.781929] (frhal_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.782069] (frhal_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.782201] (frhal_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.782330] (frhal_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.782458] (frhal_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.782584] (frhal_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.783585] (moveit_ywf_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.783823] (moveit_ywf_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.783961] (moveit_ywf_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.784091] (moveit_ywf_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.784217] (moveit_ywf_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.784355] (moveit_ywf_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.784480] (moveit_ywf_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.784604] (moveit_ywf_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.848076] (frhal_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.857949] (frhal_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.858421] (frhal_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.858600] (frhal_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.863020] (frhal_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.877903] (-) TimerEvent: {}
+[0.934465] (moveit_ywf_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.939067] (moveit_ywf_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.939341] (moveit_ywf_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.939492] (moveit_ywf_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.941238] (moveit_ywf_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.985643] (-) TimerEvent: {}
+[1.094907] (-) TimerEvent: {}
+[1.203762] (-) TimerEvent: {}
+[1.236611] (frhal_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.311310] (-) TimerEvent: {}
+[1.329134] (moveit_ywf_msg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.420549] (-) TimerEvent: {}
+[1.449840] (frhal_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.454640] (frhal_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.473915] (frhal_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.529919] (-) TimerEvent: {}
+[1.550641] (moveit_ywf_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.555690] (moveit_ywf_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.594844] (moveit_ywf_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.595239] (frhal_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.638479] (-) TimerEvent: {}
+[1.654526] (moveit_ywf_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.762065] (-) TimerEvent: {}
+[1.874514] (-) TimerEvent: {}
+[1.981332] (-) TimerEvent: {}
+[2.087605] (-) TimerEvent: {}
+[2.197766] (-) TimerEvent: {}
+[2.302493] (py_action) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_action', 'build', '--build-base', '/home/st/ywfBot_ws/build/py_action/build', 'install', '--record', '/home/st/ywfBot_ws/build/py_action/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/st/ywfBot_ws/src/py_action', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'st', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'ALLUSERSPROFILE': '/opt/MVS/MVFG', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:', 'HOME': '/home/st', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2738', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5b7d4c63bde9654ae604082a67a5a836', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'st', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'st', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'MVCAM_SDK_PATH': '/opt/MVS', 'PATH': '/opt/ros/humble/bin:/home/st/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/st-virtual-machine:@/tmp/.ICE-unix/2738,unix/st-virtual-machine:/tmp/.ICE-unix/2738', 'MVCAM_GENICAM_CLPROTOCOL': '/opt/MVS/lib/CLProtocol', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/49b5b238_b3bc_4bdc_8f5c_018982ebdf89', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.BLTH12', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.332', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/st/ywfBot_ws/build/py_action', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5b7d4c63bde9654ae604082a67a5a836', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/st/ywfBot_ws/build/py_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/st/ywfBot_ws/install/py_action/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'MVCAM_COMMON_RUNENV': '/opt/MVS/lib'}, 'shell': False}
+[2.309755] (-) TimerEvent: {}
+[2.322219] (py_action_client) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_action_client', 'build', '--build-base', '/home/st/ywfBot_ws/build/py_action_client/build', 'install', '--record', '/home/st/ywfBot_ws/build/py_action_client/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/st/ywfBot_ws/src/py_action_client', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'st', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'ALLUSERSPROFILE': '/opt/MVS/MVFG', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:', 'HOME': '/home/st', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2738', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5b7d4c63bde9654ae604082a67a5a836', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'st', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'st', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'MVCAM_SDK_PATH': '/opt/MVS', 'PATH': '/opt/ros/humble/bin:/home/st/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/st-virtual-machine:@/tmp/.ICE-unix/2738,unix/st-virtual-machine:/tmp/.ICE-unix/2738', 'MVCAM_GENICAM_CLPROTOCOL': '/opt/MVS/lib/CLProtocol', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/49b5b238_b3bc_4bdc_8f5c_018982ebdf89', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.BLTH12', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.332', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/st/ywfBot_ws/build/py_action_client', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5b7d4c63bde9654ae604082a67a5a836', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/st/ywfBot_ws/build/py_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/st/ywfBot_ws/install/py_action_client/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'MVCAM_COMMON_RUNENV': '/opt/MVS/lib'}, 'shell': False}
+[2.326369] (frhal_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.414592] (-) TimerEvent: {}
+[2.451212] (moveit_ywf_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.522930] (-) TimerEvent: {}
+[2.631345] (-) TimerEvent: {}
+[2.744036] (frhal_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.744370] (-) TimerEvent: {}
+[2.846205] (-) TimerEvent: {}
+[2.873686] (py_action) StdoutLine: {'line': b'running egg_info\n'}
+[2.874124] (py_action) StdoutLine: {'line': b'creating ../../build/py_action/py_action.egg-info\n'}
+[2.874290] (py_action) StdoutLine: {'line': b'writing ../../build/py_action/py_action.egg-info/PKG-INFO\n'}
+[2.874440] (py_action) StdoutLine: {'line': b'writing dependency_links to ../../build/py_action/py_action.egg-info/dependency_links.txt\n'}
+[2.874585] (py_action) StdoutLine: {'line': b'writing entry points to ../../build/py_action/py_action.egg-info/entry_points.txt\n'}
+[2.874725] (py_action) StdoutLine: {'line': b'writing requirements to ../../build/py_action/py_action.egg-info/requires.txt\n'}
+[2.874860] (py_action) StdoutLine: {'line': b'writing top-level names to ../../build/py_action/py_action.egg-info/top_level.txt\n'}
+[2.874993] (py_action) StdoutLine: {'line': b"writing manifest file '../../build/py_action/py_action.egg-info/SOURCES.txt'\n"}
+[2.876590] (py_action) StdoutLine: {'line': b"reading manifest file '../../build/py_action/py_action.egg-info/SOURCES.txt'\n"}
+[2.876953] (py_action) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.877106] (py_action) StdoutLine: {'line': b"writing manifest file '../../build/py_action/py_action.egg-info/SOURCES.txt'\n"}
+[2.878740] (py_action) StdoutLine: {'line': b'running build\n'}
+[2.879031] (py_action) StdoutLine: {'line': b'running build_py\n'}
+[2.879139] (py_action) StdoutLine: {'line': b'creating /home/st/ywfBot_ws/build/py_action/build\n'}
+[2.879225] (py_action) StdoutLine: {'line': b'creating /home/st/ywfBot_ws/build/py_action/build/lib\n'}
+[2.879307] (py_action) StdoutLine: {'line': b'creating /home/st/ywfBot_ws/build/py_action/build/lib/py_action\n'}
+[2.879843] (py_action) StdoutLine: {'line': b'copying py_action/__init__.py -> /home/st/ywfBot_ws/build/py_action/build/lib/py_action\n'}
+[2.880046] (py_action) StdoutLine: {'line': b'copying py_action/py_action_serv.py -> /home/st/ywfBot_ws/build/py_action/build/lib/py_action\n'}
+[2.880208] (py_action) StdoutLine: {'line': b'running install\n'}
+[2.880360] (py_action) StdoutLine: {'line': b'running install_lib\n'}
+[2.880506] (py_action) StdoutLine: {'line': b'creating /home/st/ywfBot_ws/install/py_action/lib/python3.10/site-packages/py_action\n'}
+[2.880863] (py_action) StdoutLine: {'line': b'copying /home/st/ywfBot_ws/build/py_action/build/lib/py_action/__init__.py -> /home/st/ywfBot_ws/install/py_action/lib/python3.10/site-packages/py_action\n'}
+[2.881022] (py_action) StdoutLine: {'line': b'copying /home/st/ywfBot_ws/build/py_action/build/lib/py_action/py_action_serv.py -> /home/st/ywfBot_ws/install/py_action/lib/python3.10/site-packages/py_action\n'}
+[2.881187] (py_action) StdoutLine: {'line': b'byte-compiling /home/st/ywfBot_ws/install/py_action/lib/python3.10/site-packages/py_action/__init__.py to __init__.cpython-310.pyc\n'}
+[2.881328] (py_action) StdoutLine: {'line': b'byte-compiling /home/st/ywfBot_ws/install/py_action/lib/python3.10/site-packages/py_action/py_action_serv.py to py_action_serv.cpython-310.pyc\n'}
+[2.881464] (py_action) StdoutLine: {'line': b'running install_data\n'}
+[2.881602] (py_action) StdoutLine: {'line': b'creating /home/st/ywfBot_ws/install/py_action/share/ament_index\n'}
+[2.882060] (py_action) StdoutLine: {'line': b'creating /home/st/ywfBot_ws/install/py_action/share/ament_index/resource_index\n'}
+[2.882291] (py_action) StdoutLine: {'line': b'creating /home/st/ywfBot_ws/install/py_action/share/ament_index/resource_index/packages\n'}
+[2.882441] (py_action) StdoutLine: {'line': b'copying resource/py_action -> /home/st/ywfBot_ws/install/py_action/share/ament_index/resource_index/packages\n'}
+[2.882584] (py_action) StdoutLine: {'line': b'copying package.xml -> /home/st/ywfBot_ws/install/py_action/share/py_action\n'}
+[2.882724] (py_action) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.882863] (py_action) StdoutLine: {'line': b'Copying ../../build/py_action/py_action.egg-info to /home/st/ywfBot_ws/install/py_action/lib/python3.10/site-packages/py_action-0.0.0-py3.10.egg-info\n'}
+[2.883480] (py_action) StdoutLine: {'line': b'running install_scripts\n'}
+[2.919017] (py_action_client) StdoutLine: {'line': b'running egg_info\n'}
+[2.920478] (py_action_client) StdoutLine: {'line': b'creating ../../build/py_action_client/py_action_client.egg-info\n'}
+[2.921105] (py_action_client) StdoutLine: {'line': b'writing ../../build/py_action_client/py_action_client.egg-info/PKG-INFO\n'}
+[2.921458] (py_action_client) StdoutLine: {'line': b'writing dependency_links to ../../build/py_action_client/py_action_client.egg-info/dependency_links.txt\n'}
+[2.921802] (py_action_client) StdoutLine: {'line': b'writing entry points to ../../build/py_action_client/py_action_client.egg-info/entry_points.txt\n'}
+[2.921952] (py_action_client) StdoutLine: {'line': b'writing requirements to ../../build/py_action_client/py_action_client.egg-info/requires.txt\n'}
+[2.923028] (py_action_client) StdoutLine: {'line': b'writing top-level names to ../../build/py_action_client/py_action_client.egg-info/top_level.txt\n'}
+[2.923230] (py_action_client) StdoutLine: {'line': b"writing manifest file '../../build/py_action_client/py_action_client.egg-info/SOURCES.txt'\n"}
+[2.926001] (py_action_client) StdoutLine: {'line': b"reading manifest file '../../build/py_action_client/py_action_client.egg-info/SOURCES.txt'\n"}
+[2.926623] (py_action_client) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.927247] (moveit_ywf_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.927892] (py_action_client) StdoutLine: {'line': b"writing manifest file '../../build/py_action_client/py_action_client.egg-info/SOURCES.txt'\n"}
+[2.928429] (py_action_client) StdoutLine: {'line': b'running build\n'}
+[2.928611] (py_action_client) StdoutLine: {'line': b'running build_py\n'}
+[2.929133] (py_action_client) StdoutLine: {'line': b'creating /home/st/ywfBot_ws/build/py_action_client/build\n'}
+[2.929303] (py_action_client) StdoutLine: {'line': b'creating /home/st/ywfBot_ws/build/py_action_client/build/lib\n'}
+[2.929439] (py_action_client) StdoutLine: {'line': b'creating /home/st/ywfBot_ws/build/py_action_client/build/lib/py_action_client\n'}
+[2.929570] (py_action_client) StdoutLine: {'line': b'copying py_action_client/__init__.py -> /home/st/ywfBot_ws/build/py_action_client/build/lib/py_action_client\n'}
+[2.929992] (py_action_client) StdoutLine: {'line': b'copying py_action_client/py_action_client.py -> /home/st/ywfBot_ws/build/py_action_client/build/lib/py_action_client\n'}
+[2.930191] (py_action_client) StdoutLine: {'line': b'running install\n'}
+[2.930643] (py_action_client) StdoutLine: {'line': b'running install_lib\n'}
+[2.932242] (py_action_client) StdoutLine: {'line': b'creating /home/st/ywfBot_ws/install/py_action_client/lib/python3.10/site-packages/py_action_client\n'}
+[2.932485] (py_action_client) StdoutLine: {'line': b'copying /home/st/ywfBot_ws/build/py_action_client/build/lib/py_action_client/__init__.py -> /home/st/ywfBot_ws/install/py_action_client/lib/python3.10/site-packages/py_action_client\n'}
+[2.932907] (py_action_client) StdoutLine: {'line': b'copying /home/st/ywfBot_ws/build/py_action_client/build/lib/py_action_client/py_action_client.py -> /home/st/ywfBot_ws/install/py_action_client/lib/python3.10/site-packages/py_action_client\n'}
+[2.933797] (py_action_client) StdoutLine: {'line': b'byte-compiling /home/st/ywfBot_ws/install/py_action_client/lib/python3.10/site-packages/py_action_client/__init__.py to __init__.cpython-310.pyc\n'}
+[2.934277] (py_action_client) StdoutLine: {'line': b'byte-compiling /home/st/ywfBot_ws/install/py_action_client/lib/python3.10/site-packages/py_action_client/py_action_client.py to py_action_client.cpython-310.pyc\n'}
+[2.939939] (py_action) StdoutLine: {'line': b'Installing py_action_serv script to /home/st/ywfBot_ws/install/py_action/lib/py_action\n'}
+[2.940375] (py_action) StdoutLine: {'line': b"writing list of installed files to '/home/st/ywfBot_ws/build/py_action/install.log'\n"}
+[2.941156] (py_action_client) StdoutLine: {'line': b'running install_data\n'}
+[2.941521] (py_action_client) StdoutLine: {'line': b'creating /home/st/ywfBot_ws/install/py_action_client/share/ament_index\n'}
+[2.941677] (py_action_client) StdoutLine: {'line': b'creating /home/st/ywfBot_ws/install/py_action_client/share/ament_index/resource_index\n'}
+[2.941818] (py_action_client) StdoutLine: {'line': b'creating /home/st/ywfBot_ws/install/py_action_client/share/ament_index/resource_index/packages\n'}
+[2.941954] (py_action_client) StdoutLine: {'line': b'copying resource/py_action_client -> /home/st/ywfBot_ws/install/py_action_client/share/ament_index/resource_index/packages\n'}
+[2.942089] (py_action_client) StdoutLine: {'line': b'copying package.xml -> /home/st/ywfBot_ws/install/py_action_client/share/py_action_client\n'}
+[2.942399] (py_action_client) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.942584] (py_action_client) StdoutLine: {'line': b'Copying ../../build/py_action_client/py_action_client.egg-info to /home/st/ywfBot_ws/install/py_action_client/lib/python3.10/site-packages/py_action_client-0.0.0-py3.10.egg-info\n'}
+[2.944326] (py_action_client) StdoutLine: {'line': b'running install_scripts\n'}
+[2.953285] (-) TimerEvent: {}
+[3.005910] (py_action) CommandEnded: {'returncode': 0}
+[3.007529] (py_action_client) StdoutLine: {'line': b'Installing py_action_client script to /home/st/ywfBot_ws/install/py_action_client/lib/py_action_client\n'}
+[3.007975] (py_action_client) StdoutLine: {'line': b"writing list of installed files to '/home/st/ywfBot_ws/build/py_action_client/install.log'\n"}
+[3.019636] (py_action) JobEnded: {'identifier': 'py_action', 'rc': 0}
+[3.049168] (py_action_client) CommandEnded: {'returncode': 0}
+[3.053673] (-) TimerEvent: {}
+[3.055217] (py_action_client) JobEnded: {'identifier': 'py_action_client', 'rc': 0}
+[3.155259] (-) TimerEvent: {}
+[3.256943] (-) TimerEvent: {}
+[3.349104] (frhal_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.363716] (-) TimerEvent: {}
+[3.397687] (frhal_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.400930] (frhal_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.461514] (frhal_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.461943] (frhal_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.462096] (frhal_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.462234] (frhal_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.465160] (-) TimerEvent: {}
+[3.494367] (moveit_ywf_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.513844] (frhal_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.561484] (moveit_ywf_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.565951] (moveit_ywf_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.566325] (-) TimerEvent: {}
+[3.608706] (frhal_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.627045] (moveit_ywf_msg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.627440] (moveit_ywf_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.627589] (moveit_ywf_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.627724] (moveit_ywf_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.643083] (frhal_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.654806] (frhal_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.669784] (frhal_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.670123] (-) TimerEvent: {}
+[3.689847] (moveit_ywf_msg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.750139] (frhal_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[3.751485] (frhal_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/st/ywfBot_ws/build/frhal_msgs\n'}
+[3.768722] (frhal_msgs) CommandEnded: {'returncode': 0}
+[3.769562] (frhal_msgs) JobProgress: {'identifier': 'frhal_msgs', 'progress': 'build'}
+[3.769619] (frhal_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/st/ywfBot_ws/build/frhal_msgs', '--', '-j16', '-l16'], 'cwd': '/home/st/ywfBot_ws/build/frhal_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'st'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/st'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2738'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5b7d4c63bde9654ae604082a67a5a836'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'st'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'st'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/home/st/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/st-virtual-machine:@/tmp/.ICE-unix/2738,unix/st-virtual-machine:/tmp/.ICE-unix/2738'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/49b5b238_b3bc_4bdc_8f5c_018982ebdf89'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BLTH12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.332'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/st/ywfBot_ws/build/frhal_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5b7d4c63bde9654ae604082a67a5a836'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.770237] (-) TimerEvent: {}
+[3.793536] (moveit_ywf_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.848262] (moveit_ywf_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.848626] (moveit_ywf_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.849160] (moveit_ywf_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.870968] (-) TimerEvent: {}
+[3.872087] (frhal_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.902564] (frhal_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.919631] (moveit_ywf_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[3.926088] (moveit_ywf_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/st/ywfBot_ws/build/moveit_ywf_msg\n'}
+[3.927028] (frhal_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_frhal_msgs\n'}
+[3.959024] (moveit_ywf_msg) CommandEnded: {'returncode': 0}
+[3.959930] (moveit_ywf_msg) JobProgress: {'identifier': 'moveit_ywf_msg', 'progress': 'build'}
+[3.959993] (moveit_ywf_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/st/ywfBot_ws/build/moveit_ywf_msg', '--', '-j16', '-l16'], 'cwd': '/home/st/ywfBot_ws/build/moveit_ywf_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'st'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/st'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2738'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5b7d4c63bde9654ae604082a67a5a836'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'st'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'st'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/home/st/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/st-virtual-machine:@/tmp/.ICE-unix/2738,unix/st-virtual-machine:/tmp/.ICE-unix/2738'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/49b5b238_b3bc_4bdc_8f5c_018982ebdf89'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BLTH12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.332'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/st/ywfBot_ws/build/moveit_ywf_msg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5b7d4c63bde9654ae604082a67a5a836'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.978156] (-) TimerEvent: {}
+[4.064562] (moveit_ywf_msg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.078882] (-) TimerEvent: {}
+[4.095731] (moveit_ywf_msg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.121763] (moveit_ywf_msg) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_moveit_ywf_msg\n'}
+[4.180045] (-) TimerEvent: {}
+[4.288359] (-) TimerEvent: {}
+[4.397863] (-) TimerEvent: {}
+[4.509026] (-) TimerEvent: {}
+[4.572139] (frhal_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.573835] (frhal_msgs) StdoutLine: {'line': b'creating frhal_msgs.egg-info\n'}
+[4.574322] (frhal_msgs) StdoutLine: {'line': b'writing frhal_msgs.egg-info/PKG-INFO\n'}
+[4.574491] (frhal_msgs) StdoutLine: {'line': b'writing dependency_links to frhal_msgs.egg-info/dependency_links.txt\n'}
+[4.574643] (frhal_msgs) StdoutLine: {'line': b'writing top-level names to frhal_msgs.egg-info/top_level.txt\n'}
+[4.574789] (frhal_msgs) StdoutLine: {'line': b"writing manifest file 'frhal_msgs.egg-info/SOURCES.txt'\n"}
+[4.582549] (frhal_msgs) StdoutLine: {'line': b"reading manifest file 'frhal_msgs.egg-info/SOURCES.txt'\n"}
+[4.582885] (frhal_msgs) StdoutLine: {'line': b"writing manifest file 'frhal_msgs.egg-info/SOURCES.txt'\n"}
+[4.614788] (-) TimerEvent: {}
+[4.637810] (frhal_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_frhal_msgs_egg\n'}
+[4.708664] (moveit_ywf_msg) StdoutLine: {'line': b'running egg_info\n'}
+[4.710220] (moveit_ywf_msg) StdoutLine: {'line': b'creating moveit_ywf_msg.egg-info\n'}
+[4.710749] (moveit_ywf_msg) StdoutLine: {'line': b'writing moveit_ywf_msg.egg-info/PKG-INFO\n'}
+[4.711187] (moveit_ywf_msg) StdoutLine: {'line': b'writing dependency_links to moveit_ywf_msg.egg-info/dependency_links.txt\n'}
+[4.711791] (moveit_ywf_msg) StdoutLine: {'line': b'writing top-level names to moveit_ywf_msg.egg-info/top_level.txt\n'}
+[4.712294] (moveit_ywf_msg) StdoutLine: {'line': b"writing manifest file 'moveit_ywf_msg.egg-info/SOURCES.txt'\n"}
+[4.716527] (-) TimerEvent: {}
+[4.716973] (moveit_ywf_msg) StdoutLine: {'line': b"reading manifest file 'moveit_ywf_msg.egg-info/SOURCES.txt'\n"}
+[4.717776] (moveit_ywf_msg) StdoutLine: {'line': b"writing manifest file 'moveit_ywf_msg.egg-info/SOURCES.txt'\n"}
+[4.790115] (moveit_ywf_msg) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_moveit_ywf_msg_egg\n'}
+[4.831627] (-) TimerEvent: {}
+[4.939417] (-) TimerEvent: {}
+[5.033044] (moveit_ywf_msg) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/moveit_ywf_msg__rosidl_generator_c.dir/rosidl_generator_c/moveit_ywf_msg/action/detail/moveit_ywf_intf__functions.c.o\x1b[0m\n'}
+[5.033451] (moveit_ywf_msg) StdoutLine: {'line': b'[  9%] Built target moveit_ywf_msg__cpp\n'}
+[5.041516] (-) TimerEvent: {}
+[5.064057] (moveit_ywf_msg) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.066944] (moveit_ywf_msg) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.067507] (moveit_ywf_msg) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.155661] (-) TimerEvent: {}
+[5.265182] (-) TimerEvent: {}
+[5.365094] (moveit_ywf_msg) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmoveit_ywf_msg__rosidl_generator_c.so\x1b[0m\n'}
+[5.365507] (-) TimerEvent: {}
+[5.475955] (-) TimerEvent: {}
+[5.499241] (moveit_ywf_msg) StdoutLine: {'line': b'[ 22%] Built target moveit_ywf_msg__rosidl_generator_c\n'}
+[5.535283] (moveit_ywf_msg) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.552607] (moveit_ywf_msg) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.565966] (moveit_ywf_msg) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.585592] (-) TimerEvent: {}
+[5.657679] (frhal_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_generator_c.dir/rosidl_generator_c/frhal_msgs/srv/detail/ros_cmd_interface__functions.c.o\x1b[0m\n'}
+[5.681086] (frhal_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_generator_c.dir/rosidl_generator_c/frhal_msgs/msg/detail/fr_state__functions.c.o\x1b[0m\n'}
+[5.681549] (frhal_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_generator_c.dir/rosidl_generator_c/frhal_msgs/srv/detail/trigger__functions.c.o\x1b[0m\n'}
+[5.687653] (frhal_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_generator_c.dir/rosidl_generator_c/frhal_msgs/srv/detail/calib_interface__functions.c.o\x1b[0m\n'}
+[5.688006] (-) TimerEvent: {}
+[5.696990] (frhal_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_generator_c.dir/rosidl_generator_c/frhal_msgs/srv/detail/robot_interface__functions.c.o\x1b[0m\n'}
+[5.785515] (moveit_ywf_msg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/moveit_ywf_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_ywf_msg/action/moveit_ywf_intf__type_support.cpp.o\x1b[0m\n'}
+[5.800256] (frhal_msgs) StdoutLine: {'line': b'[ 11%] Built target frhal_msgs__cpp\n'}
+[5.800696] (-) TimerEvent: {}
+[5.847103] (frhal_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.847516] (frhal_msgs) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.865561] (frhal_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.890282] (moveit_ywf_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/moveit_ywf_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_ywf_msg/action/detail/moveit_ywf_intf__type_support.cpp.o\x1b[0m\n'}
+[5.904576] (-) TimerEvent: {}
+[5.906034] (frhal_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libfrhal_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[5.934124] (moveit_ywf_msg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/moveit_ywf_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_ywf_msg/action/detail/dds_fastrtps/moveit_ywf_intf__type_support.cpp.o\x1b[0m\n'}
+[5.996066] (frhal_msgs) StdoutLine: {'line': b'[ 17%] Built target frhal_msgs__rosidl_generator_c\n'}
+[6.004837] (-) TimerEvent: {}
+[6.024500] (frhal_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.027885] (frhal_msgs) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.037573] (frhal_msgs) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.106512] (-) TimerEvent: {}
+[6.235577] (-) TimerEvent: {}
+[6.305219] (moveit_ywf_msg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/moveit_ywf_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_ywf_msg/action/moveit_ywf_intf__type_support.cpp.o\x1b[0m\n'}
+[6.345628] (-) TimerEvent: {}
+[6.449233] (moveit_ywf_msg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/moveit_ywf_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_ywf_msg/action/detail/moveit_ywf_intf__type_support.c.o\x1b[0m\n'}
+[6.449646] (-) TimerEvent: {}
+[6.457807] (moveit_ywf_msg) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libmoveit_ywf_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.458129] (moveit_ywf_msg) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/moveit_ywf_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_ywf_msg/action/detail/moveit_ywf_intf__type_support_c.cpp.o\x1b[0m\n'}
+[6.553934] (-) TimerEvent: {}
+[6.585268] (moveit_ywf_msg) StdoutLine: {'line': b'[ 54%] Built target moveit_ywf_msg__rosidl_typesupport_c\n'}
+[6.601922] (moveit_ywf_msg) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libmoveit_ywf_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.665414] (-) TimerEvent: {}
+[6.691569] (moveit_ywf_msg) StdoutLine: {'line': b'[ 58%] Built target moveit_ywf_msg__rosidl_typesupport_introspection_c\n'}
+[6.766676] (-) TimerEvent: {}
+[6.873708] (-) TimerEvent: {}
+[6.976930] (-) TimerEvent: {}
+[7.037438] (moveit_ywf_msg) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmoveit_ywf_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.079882] (-) TimerEvent: {}
+[7.145198] (frhal_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/frhal_msgs/srv/ros_cmd_interface__type_support.cpp.o\x1b[0m\n'}
+[7.145594] (frhal_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/frhal_msgs/msg/fr_state__type_support.cpp.o\x1b[0m\n'}
+[7.181635] (frhal_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/frhal_msgs/srv/trigger__type_support.cpp.o\x1b[0m\n'}
+[7.182098] (-) TimerEvent: {}
+[7.199759] (frhal_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/frhal_msgs/srv/robot_interface__type_support.cpp.o\x1b[0m\n'}
+[7.200161] (frhal_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/frhal_msgs/srv/calib_interface__type_support.cpp.o\x1b[0m\n'}
+[7.228227] (moveit_ywf_msg) StdoutLine: {'line': b'[ 61%] Built target moveit_ywf_msg__rosidl_typesupport_cpp\n'}
+[7.293557] (-) TimerEvent: {}
+[7.431344] (-) TimerEvent: {}
+[7.431958] (frhal_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/frhal_msgs/srv/ros_cmd_interface__type_support.cpp.o\x1b[0m\n'}
+[7.432294] (frhal_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/frhal_msgs/msg/fr_state__type_support.cpp.o\x1b[0m\n'}
+[7.434303] (frhal_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/frhal_msgs/srv/trigger__type_support.cpp.o\x1b[0m\n'}
+[7.517700] (frhal_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/frhal_msgs/srv/detail/ros_cmd_interface__type_support.cpp.o\x1b[0m\n'}
+[7.518125] (-) TimerEvent: {}
+[7.518488] (frhal_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/frhal_msgs/srv/robot_interface__type_support.cpp.o\x1b[0m\n'}
+[7.563192] (frhal_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/frhal_msgs/msg/detail/fr_state__type_support.cpp.o\x1b[0m\n'}
+[7.563619] (frhal_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/frhal_msgs/srv/calib_interface__type_support.cpp.o\x1b[0m\n'}
+[7.626416] (-) TimerEvent: {}
+[7.639594] (frhal_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/frhal_msgs/srv/detail/trigger__type_support.cpp.o\x1b[0m\n'}
+[7.736060] (-) TimerEvent: {}
+[7.786865] (frhal_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/frhal_msgs/srv/detail/robot_interface__type_support.cpp.o\x1b[0m\n'}
+[7.787342] (frhal_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/frhal_msgs/srv/detail/calib_interface__type_support.cpp.o\x1b[0m\n'}
+[7.851474] (moveit_ywf_msg) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libmoveit_ywf_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.851813] (-) TimerEvent: {}
+[7.920402] (moveit_ywf_msg) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libmoveit_ywf_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.931068] (moveit_ywf_msg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmoveit_ywf_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.957477] (frhal_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/frhal_msgs/srv/detail/dds_fastrtps/ros_cmd_interface__type_support.cpp.o\x1b[0m\n'}
+[7.958203] (-) TimerEvent: {}
+[7.986593] (frhal_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32m\x1b[1mLinking CXX shared library libfrhal_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.070555] (-) TimerEvent: {}
+[8.111560] (frhal_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/frhal_msgs/msg/detail/dds_fastrtps/fr_state__type_support.cpp.o\x1b[0m\n'}
+[8.158354] (frhal_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/frhal_msgs/srv/detail/dds_fastrtps/trigger__type_support.cpp.o\x1b[0m\n'}
+[8.177406] (-) TimerEvent: {}
+[8.275113] (frhal_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/frhal_msgs/srv/detail/dds_fastrtps/robot_interface__type_support.cpp.o\x1b[0m\n'}
+[8.284907] (-) TimerEvent: {}
+[8.328133] (moveit_ywf_msg) StdoutLine: {'line': b'[ 70%] Built target moveit_ywf_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[8.343214] (moveit_ywf_msg) StdoutLine: {'line': b'[ 70%] Built target moveit_ywf_msg__rosidl_typesupport_introspection_cpp\n'}
+[8.373380] (frhal_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/frhal_msgs/srv/detail/dds_fastrtps/calib_interface__type_support.cpp.o\x1b[0m\n'}
+[8.403064] (frhal_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/frhal_msgs/msg/detail/fr_state__type_support_c.cpp.o\x1b[0m\n'}
+[8.403636] (-) TimerEvent: {}
+[8.408145] (frhal_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/frhal_msgs/srv/detail/ros_cmd_interface__type_support.c.o\x1b[0m\n'}
+[8.408508] (frhal_msgs) StdoutLine: {'line': b'[ 58%] Built target frhal_msgs__rosidl_typesupport_c\n'}
+[8.409860] (frhal_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/frhal_msgs/srv/detail/ros_cmd_interface__type_support_c.cpp.o\x1b[0m\n'}
+[8.419692] (frhal_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/frhal_msgs/srv/detail/trigger__type_support_c.cpp.o\x1b[0m\n'}
+[8.473680] (frhal_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/frhal_msgs/msg/detail/fr_state__type_support.c.o\x1b[0m\n'}
+[8.477033] (moveit_ywf_msg) StdoutLine: {'line': b'[ 70%] Built target moveit_ywf_msg__rosidl_typesupport_fastrtps_c\n'}
+[8.481202] (frhal_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libfrhal_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.507191] (-) TimerEvent: {}
+[8.611182] (-) TimerEvent: {}
+[8.659400] (moveit_ywf_msg) StdoutLine: {'line': b'[ 70%] Built target moveit_ywf_msg\n'}
+[8.685680] (frhal_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/frhal_msgs/srv/detail/trigger__type_support.c.o\x1b[0m\n'}
+[8.721386] (frhal_msgs) StdoutLine: {'line': b'[ 66%] Built target frhal_msgs__rosidl_typesupport_cpp\n'}
+[8.721846] (-) TimerEvent: {}
+[8.738032] (moveit_ywf_msg) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.769543] (frhal_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/frhal_msgs/srv/detail/calib_interface__type_support_c.cpp.o\x1b[0m\n'}
+[8.772298] (frhal_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/frhal_msgs/srv/detail/robot_interface__type_support_c.cpp.o\x1b[0m\n'}
+[8.823170] (-) TimerEvent: {}
+[8.884557] (frhal_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/frhal_msgs/srv/detail/robot_interface__type_support.c.o\x1b[0m\n'}
+[8.923699] (-) TimerEvent: {}
+[9.039261] (frhal_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/frhal_msgs/srv/detail/calib_interface__type_support.c.o\x1b[0m\n'}
+[9.039717] (-) TimerEvent: {}
+[9.151405] (-) TimerEvent: {}
+[9.226165] (frhal_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking C shared library libfrhal_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.253221] (-) TimerEvent: {}
+[9.360492] (-) TimerEvent: {}
+[9.431140] (frhal_msgs) StdoutLine: {'line': b'[ 74%] Built target frhal_msgs__rosidl_typesupport_introspection_c\n'}
+[9.466430] (-) TimerEvent: {}
+[9.567754] (-) TimerEvent: {}
+[9.606153] (frhal_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libfrhal_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.676191] (-) TimerEvent: {}
+[9.785068] (-) TimerEvent: {}
+[9.808935] (frhal_msgs) StdoutLine: {'line': b'[ 76%] Built target frhal_msgs__rosidl_typesupport_introspection_cpp\n'}
+[9.894972] (-) TimerEvent: {}
+[9.979128] (frhal_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libfrhal_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.990332] (frhal_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libfrhal_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.006514] (-) TimerEvent: {}
+[10.111330] (-) TimerEvent: {}
+[10.197424] (frhal_msgs) StdoutLine: {'line': b'[ 79%] Built target frhal_msgs__rosidl_typesupport_fastrtps_c\n'}
+[10.204591] (frhal_msgs) StdoutLine: {'line': b'[ 79%] Built target frhal_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[10.220445] (-) TimerEvent: {}
+[10.286021] (frhal_msgs) StdoutLine: {'line': b'[ 79%] Built target frhal_msgs\n'}
+[10.329241] (-) TimerEvent: {}
+[10.372007] (frhal_msgs) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.438851] (-) TimerEvent: {}
+[10.533362] (moveit_ywf_msg) StdoutLine: {'line': b'[ 74%] Built target moveit_ywf_msg__py\n'}
+[10.548685] (-) TimerEvent: {}
+[10.607258] (moveit_ywf_msg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/moveit_ywf_msg__rosidl_generator_py.dir/rosidl_generator_py/moveit_ywf_msg/action/_moveit_ywf_intf_s.c.o\x1b[0m\n'}
+[10.656943] (-) TimerEvent: {}
+[10.766285] (-) TimerEvent: {}
+[10.875534] (-) TimerEvent: {}
+[10.968830] (moveit_ywf_msg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/moveit_ywf_msg/libmoveit_ywf_msg__rosidl_generator_py.so\x1b[0m\n'}
+[10.980854] (-) TimerEvent: {}
+[11.082873] (-) TimerEvent: {}
+[11.117812] (moveit_ywf_msg) StdoutLine: {'line': b'[ 80%] Built target moveit_ywf_msg__rosidl_generator_py\n'}
+[11.178868] (moveit_ywf_msg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/moveit_ywf_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/moveit_ywf_msg/_moveit_ywf_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.183262] (-) TimerEvent: {}
+[11.206929] (moveit_ywf_msg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/moveit_ywf_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/moveit_ywf_msg/_moveit_ywf_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.207341] (moveit_ywf_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/moveit_ywf_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/moveit_ywf_msg/_moveit_ywf_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.294988] (-) TimerEvent: {}
+[11.404065] (-) TimerEvent: {}
+[11.487897] (moveit_ywf_msg) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/moveit_ywf_msg/moveit_ywf_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.506618] (moveit_ywf_msg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/moveit_ywf_msg/moveit_ywf_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.507095] (-) TimerEvent: {}
+[11.515209] (moveit_ywf_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/moveit_ywf_msg/moveit_ywf_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.607797] (-) TimerEvent: {}
+[11.613788] (moveit_ywf_msg) StdoutLine: {'line': b'[100%] Built target moveit_ywf_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.624186] (moveit_ywf_msg) StdoutLine: {'line': b'[100%] Built target moveit_ywf_msg__rosidl_typesupport_c__pyext\n'}
+[11.632824] (moveit_ywf_msg) StdoutLine: {'line': b'[100%] Built target moveit_ywf_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[11.662122] (moveit_ywf_msg) CommandEnded: {'returncode': 0}
+[11.714134] (-) TimerEvent: {}
+[11.824900] (-) TimerEvent: {}
+[11.946945] (-) TimerEvent: {}
+[12.059047] (moveit_ywf_msg) JobProgress: {'identifier': 'moveit_ywf_msg', 'progress': 'install'}
+[12.059220] (-) TimerEvent: {}
+[12.065635] (moveit_ywf_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/st/ywfBot_ws/build/moveit_ywf_msg'], 'cwd': '/home/st/ywfBot_ws/build/moveit_ywf_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'st'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/st'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2738'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5b7d4c63bde9654ae604082a67a5a836'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'st'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'st'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/home/st/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/st-virtual-machine:@/tmp/.ICE-unix/2738,unix/st-virtual-machine:/tmp/.ICE-unix/2738'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/49b5b238_b3bc_4bdc_8f5c_018982ebdf89'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BLTH12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.332'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/st/ywfBot_ws/build/moveit_ywf_msg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5b7d4c63bde9654ae604082a67a5a836'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.089227] (moveit_ywf_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.089567] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/ament_index/resource_index/rosidl_interfaces/moveit_ywf_msg\n'}
+[12.089748] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg\n'}
+[12.089889] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/msg\n'}
+[12.090025] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.090157] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action\n'}
+[12.090286] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action/detail\n'}
+[12.090414] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action/detail/moveit_ywf_intf__functions.h\n'}
+[12.090559] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action/detail/moveit_ywf_intf__struct.h\n'}
+[12.090687] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action/detail/moveit_ywf_intf__functions.c\n'}
+[12.090813] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action/detail/moveit_ywf_intf__type_support.h\n'}
+[12.090941] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action/moveit_ywf_intf.h\n'}
+[12.091066] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/environment/library_path.sh\n'}
+[12.091190] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/environment/library_path.dsv\n'}
+[12.091315] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/lib/libmoveit_ywf_msg__rosidl_generator_c.so\n'}
+[12.104567] (moveit_ywf_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/st/ywfBot_ws/install/moveit_ywf_msg/lib/libmoveit_ywf_msg__rosidl_generator_c.so" to ""\n'}
+[12.104738] (moveit_ywf_msg) StdoutLine: {'line': b'-- Up-to-date: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg\n'}
+[12.104964] (moveit_ywf_msg) StdoutLine: {'line': b'-- Up-to-date: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/msg\n'}
+[12.105116] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.105260] (moveit_ywf_msg) StdoutLine: {'line': b'-- Up-to-date: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action\n'}
+[12.105396] (moveit_ywf_msg) StdoutLine: {'line': b'-- Up-to-date: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action/detail\n'}
+[12.105528] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action/detail/moveit_ywf_intf__rosidl_typesupport_fastrtps_c.h\n'}
+[12.105659] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/lib/libmoveit_ywf_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[12.107749] (moveit_ywf_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/st/ywfBot_ws/install/moveit_ywf_msg/lib/libmoveit_ywf_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.108072] (moveit_ywf_msg) StdoutLine: {'line': b'-- Up-to-date: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg\n'}
+[12.108252] (moveit_ywf_msg) StdoutLine: {'line': b'-- Up-to-date: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/msg\n'}
+[12.108407] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.108550] (moveit_ywf_msg) StdoutLine: {'line': b'-- Up-to-date: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action\n'}
+[12.108697] (moveit_ywf_msg) StdoutLine: {'line': b'-- Up-to-date: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action/detail\n'}
+[12.108836] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action/detail/moveit_ywf_intf__type_support.c\n'}
+[12.110134] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action/detail/moveit_ywf_intf__rosidl_typesupport_introspection_c.h\n'}
+[12.110613] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/lib/libmoveit_ywf_msg__rosidl_typesupport_introspection_c.so\n'}
+[12.110837] (moveit_ywf_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/st/ywfBot_ws/install/moveit_ywf_msg/lib/libmoveit_ywf_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.110978] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/lib/libmoveit_ywf_msg__rosidl_typesupport_c.so\n'}
+[12.111112] (moveit_ywf_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/st/ywfBot_ws/install/moveit_ywf_msg/lib/libmoveit_ywf_msg__rosidl_typesupport_c.so" to ""\n'}
+[12.111242] (moveit_ywf_msg) StdoutLine: {'line': b'-- Up-to-date: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg\n'}
+[12.111372] (moveit_ywf_msg) StdoutLine: {'line': b'-- Up-to-date: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/msg\n'}
+[12.111499] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[12.111628] (moveit_ywf_msg) StdoutLine: {'line': b'-- Up-to-date: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action\n'}
+[12.111756] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action/moveit_ywf_intf.hpp\n'}
+[12.111883] (moveit_ywf_msg) StdoutLine: {'line': b'-- Up-to-date: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action/detail\n'}
+[12.112010] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action/detail/moveit_ywf_intf__type_support.hpp\n'}
+[12.112160] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action/detail/moveit_ywf_intf__traits.hpp\n'}
+[12.121581] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action/detail/moveit_ywf_intf__builder.hpp\n'}
+[12.121869] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action/detail/moveit_ywf_intf__struct.hpp\n'}
+[12.122017] (moveit_ywf_msg) StdoutLine: {'line': b'-- Up-to-date: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg\n'}
+[12.122155] (moveit_ywf_msg) StdoutLine: {'line': b'-- Up-to-date: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/msg\n'}
+[12.122286] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.122416] (moveit_ywf_msg) StdoutLine: {'line': b'-- Up-to-date: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action\n'}
+[12.122565] (moveit_ywf_msg) StdoutLine: {'line': b'-- Up-to-date: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action/detail\n'}
+[12.122692] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action/detail/dds_fastrtps\n'}
+[12.122819] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action/detail/moveit_ywf_intf__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.122946] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/lib/libmoveit_ywf_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.123069] (moveit_ywf_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/st/ywfBot_ws/install/moveit_ywf_msg/lib/libmoveit_ywf_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[12.123191] (moveit_ywf_msg) StdoutLine: {'line': b'-- Up-to-date: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg\n'}
+[12.123314] (moveit_ywf_msg) StdoutLine: {'line': b'-- Up-to-date: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action\n'}
+[12.123447] (moveit_ywf_msg) StdoutLine: {'line': b'-- Up-to-date: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action/detail\n'}
+[12.123572] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action/detail/moveit_ywf_intf__type_support.cpp\n'}
+[12.123695] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/include/moveit_ywf_msg/moveit_ywf_msg/action/detail/moveit_ywf_intf__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.123819] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/lib/libmoveit_ywf_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[12.123942] (moveit_ywf_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/st/ywfBot_ws/install/moveit_ywf_msg/lib/libmoveit_ywf_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.124065] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/lib/libmoveit_ywf_msg__rosidl_typesupport_cpp.so\n'}
+[12.124188] (moveit_ywf_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/st/ywfBot_ws/install/moveit_ywf_msg/lib/libmoveit_ywf_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[12.124309] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/environment/pythonpath.sh\n'}
+[12.124434] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/environment/pythonpath.dsv\n'}
+[12.124556] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg-0.0.0-py3.10.egg-info\n'}
+[12.124680] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[12.124803] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[12.124925] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[12.125591] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[12.126100] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg\n'}
+[12.126254] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg/_moveit_ywf_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.126384] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg/__init__.py\n'}
+[12.126512] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg/moveit_ywf_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.126665] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg/_moveit_ywf_msg_s.ep.rosidl_typesupport_c.c\n'}
+[12.126792] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg/_moveit_ywf_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.126916] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg/action\n'}
+[12.127039] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg/action/__init__.py\n'}
+[12.127164] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg/action/_moveit_ywf_intf_s.c\n'}
+[12.127288] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg/action/_moveit_ywf_intf.py\n'}
+[12.127410] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg/moveit_ywf_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.127538] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg/libmoveit_ywf_msg__rosidl_generator_py.so\n'}
+[12.127663] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg/moveit_ywf_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.159741] (-) TimerEvent: {}
+[12.236587] (moveit_ywf_msg) StdoutLine: {'line': b"Listing '/home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg'...\n"}
+[12.237017] (moveit_ywf_msg) StdoutLine: {'line': b"Compiling '/home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg/__init__.py'...\n"}
+[12.237188] (moveit_ywf_msg) StdoutLine: {'line': b"Listing '/home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg/action'...\n"}
+[12.237339] (moveit_ywf_msg) StdoutLine: {'line': b"Compiling '/home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg/action/__init__.py'...\n"}
+[12.237485] (moveit_ywf_msg) StdoutLine: {'line': b"Compiling '/home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg/action/_moveit_ywf_intf.py'...\n"}
+[12.245018] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg/moveit_ywf_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.245323] (moveit_ywf_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg/moveit_ywf_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.246123] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg/moveit_ywf_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.246338] (moveit_ywf_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg/moveit_ywf_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.246757] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg/moveit_ywf_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.247000] (moveit_ywf_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages/moveit_ywf_msg/moveit_ywf_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.247528] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/lib/libmoveit_ywf_msg__rosidl_generator_py.so\n'}
+[12.248125] (moveit_ywf_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/st/ywfBot_ws/install/moveit_ywf_msg/lib/libmoveit_ywf_msg__rosidl_generator_py.so" to ""\n'}
+[12.248641] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/action/MoveitYwfIntf.idl\n'}
+[12.248830] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/action/MoveitYwfIntf.action\n'}
+[12.249297] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/ament_index/resource_index/package_run_dependencies/moveit_ywf_msg\n'}
+[12.249839] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/ament_index/resource_index/parent_prefix_path/moveit_ywf_msg\n'}
+[12.250017] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/environment/ament_prefix_path.sh\n'}
+[12.250151] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/environment/ament_prefix_path.dsv\n'}
+[12.250620] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/environment/path.sh\n'}
+[12.251206] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/environment/path.dsv\n'}
+[12.251368] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/local_setup.bash\n'}
+[12.251499] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/local_setup.sh\n'}
+[12.251627] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/local_setup.zsh\n'}
+[12.252303] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/local_setup.dsv\n'}
+[12.252478] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/package.dsv\n'}
+[12.253035] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/ament_index/resource_index/packages/moveit_ywf_msg\n'}
+[12.253196] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/cmake/export_moveit_ywf_msg__rosidl_generator_cExport.cmake\n'}
+[12.253327] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/cmake/export_moveit_ywf_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.253808] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/cmake/export_moveit_ywf_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.253992] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/cmake/export_moveit_ywf_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.254557] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/cmake/moveit_ywf_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.254717] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/cmake/moveit_ywf_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.254847] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/cmake/moveit_ywf_msg__rosidl_typesupport_cExport.cmake\n'}
+[12.254976] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/cmake/moveit_ywf_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.255536] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/cmake/export_moveit_ywf_msg__rosidl_generator_cppExport.cmake\n'}
+[12.255708] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/cmake/export_moveit_ywf_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.256231] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/cmake/export_moveit_ywf_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.256389] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/cmake/moveit_ywf_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.256516] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/cmake/moveit_ywf_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.256645] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/cmake/moveit_ywf_msg__rosidl_typesupport_cppExport.cmake\n'}
+[12.257377] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/cmake/moveit_ywf_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.257673] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/cmake/export_moveit_ywf_msg__rosidl_generator_pyExport.cmake\n'}
+[12.258171] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/cmake/export_moveit_ywf_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.258335] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[12.258466] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.258607] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.258739] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.259312] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.259574] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.259719] (-) TimerEvent: {}
+[12.260230] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.261166] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/cmake/moveit_ywf_msgConfig.cmake\n'}
+[12.261842] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/cmake/moveit_ywf_msgConfig-version.cmake\n'}
+[12.262428] (moveit_ywf_msg) StdoutLine: {'line': b'-- Installing: /home/st/ywfBot_ws/install/moveit_ywf_msg/share/moveit_ywf_msg/package.xml\n'}
+[12.277362] (moveit_ywf_msg) CommandEnded: {'returncode': 0}
+[12.367613] (-) TimerEvent: {}
+[12.476356] (-) TimerEvent: {}
+[12.583749] (-) TimerEvent: {}
+[12.691665] (-) TimerEvent: {}
+[12.747930] (moveit_ywf_msg) JobEnded: {'identifier': 'moveit_ywf_msg', 'rc': 0}
+[12.749247] (moveit2_ywf_interface) JobStarted: {'identifier': 'moveit2_ywf_interface'}
+[12.774333] (moveit2_ywf_interface) JobProgress: {'identifier': 'moveit2_ywf_interface', 'progress': 'cmake'}
+[12.774456] (moveit2_ywf_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/st/ywfBot_ws/src/moveit2_ywf_interface', '-DCMAKE_INSTALL_PREFIX=/home/st/ywfBot_ws/install/moveit2_ywf_interface'], 'cwd': '/home/st/ywfBot_ws/build/moveit2_ywf_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'st'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/st/ywfBot_ws/install/moveit_ywf_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32'), ('HOME', '/home/st'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2738'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5b7d4c63bde9654ae604082a67a5a836'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'st'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'st'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/home/st/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/st-virtual-machine:@/tmp/.ICE-unix/2738,unix/st-virtual-machine:/tmp/.ICE-unix/2738'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/49b5b238_b3bc_4bdc_8f5c_018982ebdf89'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BLTH12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.332'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/st/ywfBot_ws/install/moveit_ywf_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/st/ywfBot_ws/build/moveit2_ywf_interface'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5b7d4c63bde9654ae604082a67a5a836'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/st/ywfBot_ws/install/moveit_ywf_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/home/st/ywfBot_ws/install/moveit_ywf_msg:/opt/ros/humble')]), 'shell': False}
+[12.797378] (-) TimerEvent: {}
+[12.897896] (-) TimerEvent: {}
+[12.967006] (moveit2_ywf_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[13.002857] (-) TimerEvent: {}
+[13.111666] (-) TimerEvent: {}
+[13.124170] (moveit2_ywf_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[13.143615] (moveit2_ywf_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[13.220196] (-) TimerEvent: {}
+[13.330906] (-) TimerEvent: {}
+[13.436518] (-) TimerEvent: {}
+[13.446648] (moveit2_ywf_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[13.463849] (moveit2_ywf_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[13.464688] (moveit2_ywf_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[13.465510] (moveit2_ywf_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[13.471282] (moveit2_ywf_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[13.485204] (frhal_msgs) StdoutLine: {'line': b'[ 80%] Built target frhal_msgs__py\n'}
+[13.536849] (-) TimerEvent: {}
+[13.537796] (frhal_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_generator_py.dir/rosidl_generator_py/frhal_msgs/srv/_ros_cmd_interface_s.c.o\x1b[0m\n'}
+[13.538158] (frhal_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_generator_py.dir/rosidl_generator_py/frhal_msgs/msg/_fr_state_s.c.o\x1b[0m\n'}
+[13.539246] (frhal_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_generator_py.dir/rosidl_generator_py/frhal_msgs/srv/_trigger_s.c.o\x1b[0m\n'}
+[13.539598] (frhal_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_generator_py.dir/rosidl_generator_py/frhal_msgs/srv/_robot_interface_s.c.o\x1b[0m\n'}
+[13.540360] (frhal_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_generator_py.dir/rosidl_generator_py/frhal_msgs/srv/_calib_interface_s.c.o\x1b[0m\n'}
+[13.655465] (-) TimerEvent: {}
+[13.687557] (moveit2_ywf_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[13.707328] (moveit2_ywf_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[13.707995] (moveit2_ywf_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[13.709074] (moveit2_ywf_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[13.713438] (moveit2_ywf_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[13.762294] (-) TimerEvent: {}
+[13.857275] (frhal_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/frhal_msgs/libfrhal_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[13.871815] (-) TimerEvent: {}
+[13.979752] (-) TimerEvent: {}
+[13.999220] (frhal_msgs) StdoutLine: {'line': b'[ 90%] Built target frhal_msgs__rosidl_generator_py\n'}
+[14.070562] (frhal_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/frhal_msgs/_frhal_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[14.070995] (frhal_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/frhal_msgs/_frhal_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[14.089328] (frhal_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/frhal_msgs/_frhal_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[14.089666] (-) TimerEvent: {}
+[14.116987] (moveit2_ywf_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[14.197676] (-) TimerEvent: {}
+[14.307314] (-) TimerEvent: {}
+[14.333187] (moveit2_ywf_interface) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:12 (find_package):\n'}
+[14.333676] (moveit2_ywf_interface) StderrLine: {'line': b'  By not providing "Findmoveit_ros_planning_interface.cmake" in\n'}
+[14.333929] (moveit2_ywf_interface) StderrLine: {'line': b'  CMAKE_MODULE_PATH this project has asked CMake to find a package\n'}
+[14.334137] (moveit2_ywf_interface) StderrLine: {'line': b'  configuration file provided by "moveit_ros_planning_interface", but CMake\n'}
+[14.334380] (moveit2_ywf_interface) StderrLine: {'line': b'  did not find one.\n'}
+[14.334513] (moveit2_ywf_interface) StderrLine: {'line': b'\n'}
+[14.334641] (moveit2_ywf_interface) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[14.334823] (moveit2_ywf_interface) StderrLine: {'line': b'  "moveit_ros_planning_interface" with any of the following names:\n'}
+[14.334949] (moveit2_ywf_interface) StderrLine: {'line': b'\n'}
+[14.335315] (moveit2_ywf_interface) StderrLine: {'line': b'    moveit_ros_planning_interfaceConfig.cmake\n'}
+[14.335900] (moveit2_ywf_interface) StderrLine: {'line': b'    moveit_ros_planning_interface-config.cmake\n'}
+[14.336079] (moveit2_ywf_interface) StderrLine: {'line': b'\n'}
+[14.336216] (moveit2_ywf_interface) StderrLine: {'line': b'  Add the installation prefix of "moveit_ros_planning_interface" to\n'}
+[14.336347] (moveit2_ywf_interface) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "moveit_ros_planning_interface_DIR" to a directory\n'}
+[14.336475] (moveit2_ywf_interface) StderrLine: {'line': b'  containing one of the above files.  If "moveit_ros_planning_interface"\n'}
+[14.336600] (moveit2_ywf_interface) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[14.336724] (moveit2_ywf_interface) StderrLine: {'line': b'  installed.\n'}
+[14.336846] (moveit2_ywf_interface) StderrLine: {'line': b'\n'}
+[14.336968] (moveit2_ywf_interface) StderrLine: {'line': b'\x1b[0m\n'}
+[14.337088] (moveit2_ywf_interface) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[14.337235] (moveit2_ywf_interface) StdoutLine: {'line': b'See also "/home/st/ywfBot_ws/build/moveit2_ywf_interface/CMakeFiles/CMakeOutput.log".\n'}
+[14.344012] (moveit2_ywf_interface) CommandEnded: {'returncode': 1}
+[14.358823] (frhal_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/frhal_msgs/frhal_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.369625] (frhal_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/frhal_msgs/frhal_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.370591] (frhal_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/frhal_msgs/frhal_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.380348] (moveit2_ywf_interface) JobEnded: {'identifier': 'moveit2_ywf_interface', 'rc': 1}
+[14.418358] (-) TimerEvent: {}
+[14.447657] (frhal_msgs) StdoutLine: {'line': b'[100%] Built target frhal_msgs__rosidl_typesupport_c__pyext\n'}
+[14.450121] (frhal_msgs) StdoutLine: {'line': b'[100%] Built target frhal_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[14.460341] (frhal_msgs) StdoutLine: {'line': b'[100%] Built target frhal_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[14.490061] (frhal_msgs) JobEnded: {'identifier': 'frhal_msgs', 'rc': 'SIGINT'}
+[14.514130] (fr_ros2) JobSkipped: {'identifier': 'fr_ros2'}
+[14.514336] (-) EventReactorShutdown: {}

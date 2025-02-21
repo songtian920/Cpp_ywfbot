@@ -1,0 +1,22 @@
+[2.762s] Invoking command in '/home/st/ywfBot_ws/src/py_action': PYTHONPATH=/home/st/ywfBot_ws/build/py_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/st/ywfBot_ws/install/py_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_action build --build-base /home/st/ywfBot_ws/build/py_action/build install --record /home/st/ywfBot_ws/build/py_action/install.log --single-version-externally-managed install_data
+[3.439s] running egg_info
+[3.440s] writing ../../build/py_action/py_action.egg-info/PKG-INFO
+[3.442s] writing dependency_links to ../../build/py_action/py_action.egg-info/dependency_links.txt
+[3.442s] writing entry points to ../../build/py_action/py_action.egg-info/entry_points.txt
+[3.443s] writing requirements to ../../build/py_action/py_action.egg-info/requires.txt
+[3.443s] writing top-level names to ../../build/py_action/py_action.egg-info/top_level.txt
+[3.451s] reading manifest file '../../build/py_action/py_action.egg-info/SOURCES.txt'
+[3.451s] adding license file 'LICENSE'
+[3.452s] writing manifest file '../../build/py_action/py_action.egg-info/SOURCES.txt'
+[3.452s] running build
+[3.453s] running build_py
+[3.453s] running install
+[3.455s] running install_lib
+[3.458s] running install_data
+[3.459s] running install_egg_info
+[3.465s] removing '/home/st/ywfBot_ws/install/py_action/lib/python3.10/site-packages/py_action-0.0.0-py3.10.egg-info' (and everything under it)
+[3.470s] Copying ../../build/py_action/py_action.egg-info to /home/st/ywfBot_ws/install/py_action/lib/python3.10/site-packages/py_action-0.0.0-py3.10.egg-info
+[3.471s] running install_scripts
+[3.529s] Installing py_action_serv script to /home/st/ywfBot_ws/install/py_action/lib/py_action
+[3.530s] writing list of installed files to '/home/st/ywfBot_ws/build/py_action/install.log'
+[3.603s] Invoked command in '/home/st/ywfBot_ws/src/py_action' returned '0': PYTHONPATH=/home/st/ywfBot_ws/build/py_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/st/ywfBot_ws/install/py_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_action build --build-base /home/st/ywfBot_ws/build/py_action/build install --record /home/st/ywfBot_ws/build/py_action/install.log --single-version-externally-managed install_data

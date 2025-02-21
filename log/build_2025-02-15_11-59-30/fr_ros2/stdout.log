@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_cmd_server[0m
+[ 33%] Built target srv_test_client
+[ 44%] [32mBuilding CXX object CMakeFiles/ros2_cmd_server.dir/src/ROS_API.cpp.o[0m

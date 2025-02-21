@@ -1,0 +1,10 @@
+{
+  "package_name": "frhal_msgs",
+  "non_idl_tuples": [
+    "/home/st/ywfBot_ws/src/frhal_msgs:srv/ROSCmdInterface.srv",
+    "/home/st/ywfBot_ws/src/frhal_msgs:msg/FRState.msg",
+    "/home/st/ywfBot_ws/src/frhal_msgs:srv/Trigger.srv",
+    "/home/st/ywfBot_ws/src/frhal_msgs:srv/RobotInterface.srv",
+    "/home/st/ywfBot_ws/src/frhal_msgs:srv/CalibInterface.srv"
+  ]
+}
