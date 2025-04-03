@@ -1,0 +1,109 @@
+[0.182s] Invoking command in '/home/st/ywfBot_ws_v1.3/build/fairino_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/st/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/st/ros2_control_ws/install/rqt_controller_manager:/home/st/ros2_control_ws/install/ros2controlcli:/home/st/ros2_control_ws/install/ros2_controllers_test_nodes:/home/st/ros2_control_ws/install/ros2_control_demo_testing:/home/st/ywfBot_ws_v1.1/install/py_action_client:/home/st/ywfBot_ws_v1.1/install/py_action:/home/st/ywfBot_ws_v1.1/install/moveit2_ywf_interface:/home/st/ywfBot_ws_v1.1/install/moveit_ywf_msg:/home/st/ywfBot_ws_v1.1/install/fairino_hardware:/home/st/ywfBot_ws_v1.1/install/fairino_msgs:/home/st/ywfBot_ws/install/py_action_client:/home/st/ywfBot_ws/install/py_action:/home/st/ywfBot_ws/install/moveit2_ywf_interface:/home/st/ywfBot_ws/install/moveit_ywf_msg:/home/st/ywfBot_ws/install/frhal_msgs:/home/st/ywfBot_ws/install/fr_ros2:/home/st/moveit2_humble_ws/install/moveit_configs_utils:/home/st/moveit2_humble_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/st/ywfBot_ws_v1.3/src/frcobot_ros2-V3.0.0_robot3.7.6/fairino_description -DCMAKE_INSTALL_PREFIX=/home/st/ywfBot_ws_v1.3/install/fairino_description
+[1.045s] -- The C compiler identification is GNU 11.4.0
+[1.045s] -- The CXX compiler identification is GNU 11.4.0
+[1.045s] -- Detecting C compiler ABI info
+[1.045s] -- Detecting C compiler ABI info - done
+[1.046s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.046s] -- Detecting C compile features
+[1.047s] -- Detecting C compile features - done
+[1.047s] -- Detecting CXX compiler ABI info
+[1.352s] -- Detecting CXX compiler ABI info - done
+[1.379s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.379s] -- Detecting CXX compile features
+[1.379s] -- Detecting CXX compile features - done
+[1.400s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.026s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.631s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[3.097s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.505s] -- Added test 'lint_cmake' to check CMake code style
+[3.515s] -- Added test 'xmllint' to check XML markup files
+[3.529s] -- Configuring done
+[3.532s] -- Generating done
+[3.538s] -- Build files have been written to: /home/st/ywfBot_ws_v1.3/build/fairino_description
+[3.556s] Invoked command in '/home/st/ywfBot_ws_v1.3/build/fairino_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/st/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/st/ros2_control_ws/install/rqt_controller_manager:/home/st/ros2_control_ws/install/ros2controlcli:/home/st/ros2_control_ws/install/ros2_controllers_test_nodes:/home/st/ros2_control_ws/install/ros2_control_demo_testing:/home/st/ywfBot_ws_v1.1/install/py_action_client:/home/st/ywfBot_ws_v1.1/install/py_action:/home/st/ywfBot_ws_v1.1/install/moveit2_ywf_interface:/home/st/ywfBot_ws_v1.1/install/moveit_ywf_msg:/home/st/ywfBot_ws_v1.1/install/fairino_hardware:/home/st/ywfBot_ws_v1.1/install/fairino_msgs:/home/st/ywfBot_ws/install/py_action_client:/home/st/ywfBot_ws/install/py_action:/home/st/ywfBot_ws/install/moveit2_ywf_interface:/home/st/ywfBot_ws/install/moveit_ywf_msg:/home/st/ywfBot_ws/install/frhal_msgs:/home/st/ywfBot_ws/install/fr_ros2:/home/st/moveit2_humble_ws/install/moveit_configs_utils:/home/st/moveit2_humble_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/st/ywfBot_ws_v1.3/src/frcobot_ros2-V3.0.0_robot3.7.6/fairino_description -DCMAKE_INSTALL_PREFIX=/home/st/ywfBot_ws_v1.3/install/fairino_description
+[3.557s] Invoking command in '/home/st/ywfBot_ws_v1.3/build/fairino_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/st/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/st/ros2_control_ws/install/rqt_controller_manager:/home/st/ros2_control_ws/install/ros2controlcli:/home/st/ros2_control_ws/install/ros2_controllers_test_nodes:/home/st/ros2_control_ws/install/ros2_control_demo_testing:/home/st/ywfBot_ws_v1.1/install/py_action_client:/home/st/ywfBot_ws_v1.1/install/py_action:/home/st/ywfBot_ws_v1.1/install/moveit2_ywf_interface:/home/st/ywfBot_ws_v1.1/install/moveit_ywf_msg:/home/st/ywfBot_ws_v1.1/install/fairino_hardware:/home/st/ywfBot_ws_v1.1/install/fairino_msgs:/home/st/ywfBot_ws/install/py_action_client:/home/st/ywfBot_ws/install/py_action:/home/st/ywfBot_ws/install/moveit2_ywf_interface:/home/st/ywfBot_ws/install/moveit_ywf_msg:/home/st/ywfBot_ws/install/frhal_msgs:/home/st/ywfBot_ws/install/fr_ros2:/home/st/moveit2_humble_ws/install/moveit_configs_utils:/home/st/moveit2_humble_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/st/ywfBot_ws_v1.3/build/fairino_description -- -j16 -l16
+[3.771s] Invoked command in '/home/st/ywfBot_ws_v1.3/build/fairino_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/st/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/st/ros2_control_ws/install/rqt_controller_manager:/home/st/ros2_control_ws/install/ros2controlcli:/home/st/ros2_control_ws/install/ros2_controllers_test_nodes:/home/st/ros2_control_ws/install/ros2_control_demo_testing:/home/st/ywfBot_ws_v1.1/install/py_action_client:/home/st/ywfBot_ws_v1.1/install/py_action:/home/st/ywfBot_ws_v1.1/install/moveit2_ywf_interface:/home/st/ywfBot_ws_v1.1/install/moveit_ywf_msg:/home/st/ywfBot_ws_v1.1/install/fairino_hardware:/home/st/ywfBot_ws_v1.1/install/fairino_msgs:/home/st/ywfBot_ws/install/py_action_client:/home/st/ywfBot_ws/install/py_action:/home/st/ywfBot_ws/install/moveit2_ywf_interface:/home/st/ywfBot_ws/install/moveit_ywf_msg:/home/st/ywfBot_ws/install/frhal_msgs:/home/st/ywfBot_ws/install/fr_ros2:/home/st/moveit2_humble_ws/install/moveit_configs_utils:/home/st/moveit2_humble_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/st/ywfBot_ws_v1.3/build/fairino_description -- -j16 -l16
+[3.823s] Invoking command in '/home/st/ywfBot_ws_v1.3/build/fairino_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/st/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/st/ros2_control_ws/install/rqt_controller_manager:/home/st/ros2_control_ws/install/ros2controlcli:/home/st/ros2_control_ws/install/ros2_controllers_test_nodes:/home/st/ros2_control_ws/install/ros2_control_demo_testing:/home/st/ywfBot_ws_v1.1/install/py_action_client:/home/st/ywfBot_ws_v1.1/install/py_action:/home/st/ywfBot_ws_v1.1/install/moveit2_ywf_interface:/home/st/ywfBot_ws_v1.1/install/moveit_ywf_msg:/home/st/ywfBot_ws_v1.1/install/fairino_hardware:/home/st/ywfBot_ws_v1.1/install/fairino_msgs:/home/st/ywfBot_ws/install/py_action_client:/home/st/ywfBot_ws/install/py_action:/home/st/ywfBot_ws/install/moveit2_ywf_interface:/home/st/ywfBot_ws/install/moveit_ywf_msg:/home/st/ywfBot_ws/install/frhal_msgs:/home/st/ywfBot_ws/install/fr_ros2:/home/st/moveit2_humble_ws/install/moveit_configs_utils:/home/st/moveit2_humble_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/st/ywfBot_ws_v1.3/build/fairino_description
+[3.858s] -- Install configuration: ""
+[3.858s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes
+[3.858s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino3_v6
+[3.858s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino3_v6/wrist3_link.STL
+[3.860s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino3_v6/base_link.STL
+[3.861s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino3_v6/shoulder_link.STL
+[3.864s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino3_v6/forearm_link.STL
+[3.869s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino3_v6/wrist2_link.STL
+[3.873s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino3_v6/wrist1_link.STL
+[3.874s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino3_v6/upperarm_link.STL
+[3.874s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino5_v6
+[3.874s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino5_v6/wrist3_link.STL
+[3.878s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino5_v6/base_link.STL
+[3.878s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino5_v6/shoulder_link.STL
+[3.878s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino5_v6/forearm_link.STL
+[3.879s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino5_v6/wrist2_link.STL
+[3.880s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino5_v6/wrist1_link.STL
+[3.880s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino5_v6/upperarm_link.STL
+[3.884s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino3_mt_v6
+[3.884s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino3_mt_v6/wrist3_link.STL
+[3.884s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino3_mt_v6/base_link.STL
+[3.884s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino3_mt_v6/shoulder_link.STL
+[3.886s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino3_mt_v6/forearm_link.STL
+[3.888s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino3_mt_v6/wrist2_link.STL
+[3.889s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino3_mt_v6/wrist1_link.STL
+[3.889s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino3_mt_v6/upperarm_link.STL
+[3.915s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino10_v6
+[3.916s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino10_v6/wrist3_link.STL
+[3.916s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino10_v6/base_link.STL
+[3.916s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino10_v6/shoulder_link.STL
+[3.916s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino10_v6/forearm_link.STL
+[3.916s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino10_v6/wrist2_link.STL
+[3.916s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino10_v6/wrist1_link.STL
+[3.916s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino10_v6/upperarm_link.STL
+[3.916s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino16_v6
+[3.917s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino16_v6/wrist3_link.STL
+[3.917s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino16_v6/base_link.STL
+[3.917s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino16_v6/shoulder_link.STL
+[3.917s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino16_v6/forearm_link.STL
+[3.917s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino16_v6/wrist2_link.STL
+[3.917s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino16_v6/wrist1_link.STL
+[3.917s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino16_v6/upperarm_link.STL
+[3.918s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino30_v6
+[3.918s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino30_v6/wrist3_link.STL
+[3.918s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino30_v6/base_link.STL
+[3.918s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino30_v6/shoulder_link.STL
+[3.925s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino30_v6/forearm_link.STL
+[3.926s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino30_v6/tool_link.STL
+[3.926s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino30_v6/wrist2_link.STL
+[3.926s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino30_v6/uppperarm_link.STL
+[3.928s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino30_v6/wrist1_link.STL
+[3.931s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino20_v6
+[3.932s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino20_v6/wrist3_link.STL
+[3.932s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino20_v6/base_link.STL
+[3.933s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino20_v6/shoulder_link.STL
+[3.939s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino20_v6/forearm_link.STL
+[3.939s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino20_v6/wrist2_link.STL
+[3.939s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino20_v6/wrist1_link.STL
+[3.940s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/meshes/fairino20_v6/upperarm_link.STL
+[3.943s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/urdf
+[3.943s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/urdf/fairino5_v6.urdf
+[3.943s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/urdf/fairino20_v6.urdf
+[3.943s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/urdf/fairino3_mt_v6.urdf
+[3.943s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/urdf/fairino10_v6.urdf
+[3.943s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/urdf/fairino30_v6.urdf
+[3.944s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/urdf/fairino16_v6.urdf
+[3.944s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/urdf/fairino3_v6.urdf
+[3.946s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/ament_index/resource_index/package_run_dependencies/fairino_description
+[3.947s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/ament_index/resource_index/parent_prefix_path/fairino_description
+[3.947s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/environment/ament_prefix_path.sh
+[3.947s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/environment/ament_prefix_path.dsv
+[3.947s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/environment/path.sh
+[3.947s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/environment/path.dsv
+[3.947s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/local_setup.bash
+[3.947s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/local_setup.sh
+[3.948s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/local_setup.zsh
+[3.948s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/local_setup.dsv
+[3.948s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/package.dsv
+[3.948s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/ament_index/resource_index/packages/fairino_description
+[3.949s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/cmake/fairino_descriptionConfig.cmake
+[3.949s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/cmake/fairino_descriptionConfig-version.cmake
+[3.949s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_description/share/fairino_description/package.xml
+[3.954s] Invoked command in '/home/st/ywfBot_ws_v1.3/build/fairino_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/st/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/st/ros2_control_ws/install/rqt_controller_manager:/home/st/ros2_control_ws/install/ros2controlcli:/home/st/ros2_control_ws/install/ros2_controllers_test_nodes:/home/st/ros2_control_ws/install/ros2_control_demo_testing:/home/st/ywfBot_ws_v1.1/install/py_action_client:/home/st/ywfBot_ws_v1.1/install/py_action:/home/st/ywfBot_ws_v1.1/install/moveit2_ywf_interface:/home/st/ywfBot_ws_v1.1/install/moveit_ywf_msg:/home/st/ywfBot_ws_v1.1/install/fairino_hardware:/home/st/ywfBot_ws_v1.1/install/fairino_msgs:/home/st/ywfBot_ws/install/py_action_client:/home/st/ywfBot_ws/install/py_action:/home/st/ywfBot_ws/install/moveit2_ywf_interface:/home/st/ywfBot_ws/install/moveit_ywf_msg:/home/st/ywfBot_ws/install/frhal_msgs:/home/st/ywfBot_ws/install/fr_ros2:/home/st/moveit2_humble_ws/install/moveit_configs_utils:/home/st/moveit2_humble_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/st/ywfBot_ws_v1.3/build/fairino_description

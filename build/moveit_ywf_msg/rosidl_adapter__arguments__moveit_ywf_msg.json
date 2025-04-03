@@ -1,6 +1,6 @@
 {
   "package_name": "moveit_ywf_msg",
   "non_idl_tuples": [
-    "/home/st/ywfBot_ws/src/moveit_ywf_msg:action/MoveitYwfIntf.action"
+    "/home/st/ywfBot_ws_v1.3/src/moveit_ywf_msg:action/MoveitYwfIntf.action"
   ]
 }

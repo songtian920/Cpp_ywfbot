@@ -1,3 +1,0 @@
-Invoking command in '/home/st/ywfBot_ws/build/frhal_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/st/ywfBot_ws/src/frhal_msgs -DCMAKE_INSTALL_PREFIX=/home/st/ywfBot_ws/install/frhal_msgs
-Invoked command in '/home/st/ywfBot_ws/build/frhal_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/st/ywfBot_ws/src/frhal_msgs -DCMAKE_INSTALL_PREFIX=/home/st/ywfBot_ws/install/frhal_msgs
-Invoking command in '/home/st/ywfBot_ws/build/frhal_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/st/ywfBot_ws/build/frhal_msgs -- -j16 -l16

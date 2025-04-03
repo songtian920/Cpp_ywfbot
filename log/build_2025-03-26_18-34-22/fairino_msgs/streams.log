@@ -1,0 +1,215 @@
+[0.173s] Invoking command in '/home/st/ywfBot_ws_v1.3/build/fairino_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/st/ywfBot_ws_v1.3/install/py_action_client:/home/st/ywfBot_ws_v1.3/install/py_action:/home/st/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/st/ros2_control_ws/install/rqt_controller_manager:/home/st/ros2_control_ws/install/ros2controlcli:/home/st/ros2_control_ws/install/ros2_controllers_test_nodes:/home/st/ros2_control_ws/install/ros2_control_demo_testing:/home/st/ywfBot_ws_v1.1/install/py_action_client:/home/st/ywfBot_ws_v1.1/install/py_action:/home/st/ywfBot_ws_v1.1/install/moveit2_ywf_interface:/home/st/ywfBot_ws_v1.1/install/moveit_ywf_msg:/home/st/ywfBot_ws_v1.1/install/fairino_hardware:/home/st/ywfBot_ws_v1.1/install/fairino_msgs:/home/st/ywfBot_ws/install/py_action_client:/home/st/ywfBot_ws/install/py_action:/home/st/ywfBot_ws/install/moveit2_ywf_interface:/home/st/ywfBot_ws/install/moveit_ywf_msg:/home/st/ywfBot_ws/install/frhal_msgs:/home/st/ywfBot_ws/install/fr_ros2:/home/st/moveit2_humble_ws/install/moveit_configs_utils:/home/st/moveit2_humble_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/st/ywfBot_ws_v1.3/build/fairino_msgs -- -j16 -l16
+[1.062s] [35m[1mConsolidate compiler generated dependencies of target fairino_msgs__rosidl_generator_c[0m
+[1.062s] [  2%] Built target fairino_msgs__cpp
+[1.062s] [ 12%] Built target fairino_msgs__rosidl_generator_c
+[1.063s] [35m[1mConsolidate compiler generated dependencies of target fairino_msgs__rosidl_typesupport_cpp[0m
+[1.063s] [35m[1mConsolidate compiler generated dependencies of target fairino_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.063s] [35m[1mConsolidate compiler generated dependencies of target fairino_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.063s] [ 12%] Built target ament_cmake_python_copy_fairino_msgs
+[1.065s] [35m[1mConsolidate compiler generated dependencies of target fairino_msgs__rosidl_typesupport_introspection_c[0m
+[1.065s] [35m[1mConsolidate compiler generated dependencies of target fairino_msgs__rosidl_typesupport_c[0m
+[1.066s] [35m[1mConsolidate compiler generated dependencies of target fairino_msgs__rosidl_typesupport_fastrtps_c[0m
+[1.067s] [ 23%] Built target fairino_msgs__rosidl_typesupport_introspection_cpp
+[1.067s] [ 34%] Built target fairino_msgs__rosidl_typesupport_cpp
+[1.067s] [ 55%] Built target fairino_msgs__rosidl_typesupport_introspection_c
+[1.067s] [ 51%] Built target fairino_msgs__rosidl_typesupport_c
+[1.068s] [ 65%] Built target fairino_msgs__rosidl_typesupport_fastrtps_cpp
+[1.068s] [ 76%] Built target fairino_msgs__rosidl_typesupport_fastrtps_c
+[1.068s] [ 76%] Built target fairino_msgs
+[1.068s] [ 78%] Built target fairino_msgs__py
+[1.068s] [35m[1mConsolidate compiler generated dependencies of target fairino_msgs__rosidl_generator_py[0m
+[1.068s] [ 87%] Built target fairino_msgs__rosidl_generator_py
+[1.084s] [35m[1mConsolidate compiler generated dependencies of target fairino_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.084s] [35m[1mConsolidate compiler generated dependencies of target fairino_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.084s] [35m[1mConsolidate compiler generated dependencies of target fairino_msgs__rosidl_typesupport_c__pyext[0m
+[1.134s] [ 95%] Built target fairino_msgs__rosidl_typesupport_c__pyext
+[1.134s] [ 95%] Built target fairino_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.138s] [100%] Built target fairino_msgs__rosidl_typesupport_introspection_c__pyext
+[1.407s] running egg_info
+[1.409s] writing fairino_msgs.egg-info/PKG-INFO
+[1.410s] writing dependency_links to fairino_msgs.egg-info/dependency_links.txt
+[1.410s] writing top-level names to fairino_msgs.egg-info/top_level.txt
+[1.417s] reading manifest file 'fairino_msgs.egg-info/SOURCES.txt'
+[1.417s] writing manifest file 'fairino_msgs.egg-info/SOURCES.txt'
+[1.499s] [100%] Built target ament_cmake_python_build_fairino_msgs_egg
+[2.040s] Invoked command in '/home/st/ywfBot_ws_v1.3/build/fairino_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/st/ywfBot_ws_v1.3/install/py_action_client:/home/st/ywfBot_ws_v1.3/install/py_action:/home/st/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/st/ros2_control_ws/install/rqt_controller_manager:/home/st/ros2_control_ws/install/ros2controlcli:/home/st/ros2_control_ws/install/ros2_controllers_test_nodes:/home/st/ros2_control_ws/install/ros2_control_demo_testing:/home/st/ywfBot_ws_v1.1/install/py_action_client:/home/st/ywfBot_ws_v1.1/install/py_action:/home/st/ywfBot_ws_v1.1/install/moveit2_ywf_interface:/home/st/ywfBot_ws_v1.1/install/moveit_ywf_msg:/home/st/ywfBot_ws_v1.1/install/fairino_hardware:/home/st/ywfBot_ws_v1.1/install/fairino_msgs:/home/st/ywfBot_ws/install/py_action_client:/home/st/ywfBot_ws/install/py_action:/home/st/ywfBot_ws/install/moveit2_ywf_interface:/home/st/ywfBot_ws/install/moveit_ywf_msg:/home/st/ywfBot_ws/install/frhal_msgs:/home/st/ywfBot_ws/install/fr_ros2:/home/st/moveit2_humble_ws/install/moveit_configs_utils:/home/st/moveit2_humble_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/st/ywfBot_ws_v1.3/build/fairino_msgs -- -j16 -l16
+[2.041s] Invoking command in '/home/st/ywfBot_ws_v1.3/build/fairino_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/st/ywfBot_ws_v1.3/install/py_action_client:/home/st/ywfBot_ws_v1.3/install/py_action:/home/st/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/st/ros2_control_ws/install/rqt_controller_manager:/home/st/ros2_control_ws/install/ros2controlcli:/home/st/ros2_control_ws/install/ros2_controllers_test_nodes:/home/st/ros2_control_ws/install/ros2_control_demo_testing:/home/st/ywfBot_ws_v1.1/install/py_action_client:/home/st/ywfBot_ws_v1.1/install/py_action:/home/st/ywfBot_ws_v1.1/install/moveit2_ywf_interface:/home/st/ywfBot_ws_v1.1/install/moveit_ywf_msg:/home/st/ywfBot_ws_v1.1/install/fairino_hardware:/home/st/ywfBot_ws_v1.1/install/fairino_msgs:/home/st/ywfBot_ws/install/py_action_client:/home/st/ywfBot_ws/install/py_action:/home/st/ywfBot_ws/install/moveit2_ywf_interface:/home/st/ywfBot_ws/install/moveit_ywf_msg:/home/st/ywfBot_ws/install/frhal_msgs:/home/st/ywfBot_ws/install/fr_ros2:/home/st/moveit2_humble_ws/install/moveit_configs_utils:/home/st/moveit2_humble_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/st/ywfBot_ws_v1.3/build/fairino_msgs
+[2.073s] -- Install configuration: ""
+[2.073s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/ament_index/resource_index/rosidl_interfaces/fairino_msgs
+[2.073s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs
+[2.073s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg
+[2.073s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.073s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/robot_nonrt_state.h
+[2.073s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail
+[2.073s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__struct.h
+[2.073s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__functions.h
+[2.074s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__type_support.h
+[2.074s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__functions.c
+[2.074s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv
+[2.074s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/remote_cmd_interface.h
+[2.074s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/remote_script_content.h
+[2.074s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail
+[2.074s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__functions.c
+[2.074s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__struct.h
+[2.075s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__struct.h
+[2.075s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__type_support.h
+[2.075s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__functions.c
+[2.075s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__functions.h
+[2.075s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__functions.h
+[2.075s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__type_support.h
+[2.075s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/environment/library_path.sh
+[2.076s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/environment/library_path.dsv
+[2.076s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/lib/libfairino_msgs__rosidl_generator_c.so
+[2.076s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs
+[2.076s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg
+[2.077s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.077s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail
+[2.078s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__rosidl_typesupport_fastrtps_c.h
+[2.079s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv
+[2.079s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail
+[2.079s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__rosidl_typesupport_fastrtps_c.h
+[2.080s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__rosidl_typesupport_fastrtps_c.h
+[2.081s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_fastrtps_c.so
+[2.081s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs
+[2.082s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg
+[2.082s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.083s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail
+[2.085s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__type_support.c
+[2.086s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__rosidl_typesupport_introspection_c.h
+[2.086s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv
+[2.087s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail
+[2.087s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__rosidl_typesupport_introspection_c.h
+[2.088s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__rosidl_typesupport_introspection_c.h
+[2.088s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__type_support.c
+[2.088s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__type_support.c
+[2.088s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_introspection_c.so
+[2.088s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_c.so
+[2.089s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs
+[2.089s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg
+[2.089s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/robot_nonrt_state.hpp
+[2.089s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.089s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail
+[2.089s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__struct.hpp
+[2.089s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__builder.hpp
+[2.090s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__type_support.hpp
+[2.090s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__traits.hpp
+[2.090s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv
+[2.090s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/remote_script_content.hpp
+[2.090s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/remote_cmd_interface.hpp
+[2.090s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail
+[2.090s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__traits.hpp
+[2.091s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__struct.hpp
+[2.091s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__type_support.hpp
+[2.091s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__struct.hpp
+[2.091s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__builder.hpp
+[2.091s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__type_support.hpp
+[2.091s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__builder.hpp
+[2.091s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__traits.hpp
+[2.092s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs
+[2.092s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg
+[2.092s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.092s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail
+[2.092s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/dds_fastrtps
+[2.092s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.092s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv
+[2.093s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail
+[2.093s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/dds_fastrtps
+[2.093s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__rosidl_typesupport_fastrtps_cpp.hpp
+[2.093s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__rosidl_typesupport_fastrtps_cpp.hpp
+[2.093s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.093s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs
+[2.093s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg
+[2.094s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail
+[2.094s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__rosidl_typesupport_introspection_cpp.hpp
+[2.094s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__type_support.cpp
+[2.094s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv
+[2.094s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail
+[2.094s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__rosidl_typesupport_introspection_cpp.hpp
+[2.094s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__type_support.cpp
+[2.094s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__rosidl_typesupport_introspection_cpp.hpp
+[2.095s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__type_support.cpp
+[2.095s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_introspection_cpp.so
+[2.095s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_cpp.so
+[2.095s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/environment/pythonpath.sh
+[2.095s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/environment/pythonpath.dsv
+[2.095s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs-0.0.0-py3.10.egg-info
+[2.095s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.096s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.096s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.096s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.096s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs
+[2.096s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/__init__.py
+[2.096s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.096s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/_fairino_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.097s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.097s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/msg
+[2.097s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/msg/__init__.py
+[2.097s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/msg/_robot_nonrt_state.py
+[2.097s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/msg/_robot_nonrt_state_s.c
+[2.097s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/_fairino_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.097s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/libfairino_msgs__rosidl_generator_py.so
+[2.098s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv
+[2.099s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv/__init__.py
+[2.099s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv/_remote_cmd_interface.py
+[2.100s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv/_remote_script_content.py
+[2.100s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv/_remote_script_content_s.c
+[2.100s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv/_remote_cmd_interface_s.c
+[2.102s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/_fairino_msgs_s.ep.rosidl_typesupport_c.c
+[2.103s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.212s] Listing '/home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs'...
+[2.215s] Listing '/home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/msg'...
+[2.215s] Listing '/home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv'...
+[2.241s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.241s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.241s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.241s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/lib/libfairino_msgs__rosidl_generator_py.so
+[2.241s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/srv/RemoteCmdInterface.idl
+[2.241s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/srv/RemoteScriptContent.idl
+[2.242s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/msg/RobotNonrtState.idl
+[2.242s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/srv/RemoteCmdInterface.srv
+[2.242s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/srv/RemoteCmdInterface_Request.msg
+[2.242s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/srv/RemoteCmdInterface_Response.msg
+[2.242s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/srv/RemoteScriptContent.srv
+[2.242s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/srv/RemoteScriptContent_Request.msg
+[2.242s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/srv/RemoteScriptContent_Response.msg
+[2.243s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/msg/RobotNonrtState.msg
+[2.243s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/ament_index/resource_index/package_run_dependencies/fairino_msgs
+[2.243s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/ament_index/resource_index/parent_prefix_path/fairino_msgs
+[2.243s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/environment/ament_prefix_path.sh
+[2.243s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/environment/ament_prefix_path.dsv
+[2.243s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/environment/path.sh
+[2.243s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/environment/path.dsv
+[2.243s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/local_setup.bash
+[2.244s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/local_setup.sh
+[2.244s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/local_setup.zsh
+[2.244s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/local_setup.dsv
+[2.244s] -- Installing: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/package.dsv
+[2.244s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/ament_index/resource_index/packages/fairino_msgs
+[2.244s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_generator_cExport.cmake
+[2.244s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.245s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.245s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.245s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.245s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.245s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_cExport.cmake
+[2.245s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.245s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_generator_cppExport.cmake
+[2.246s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.246s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.246s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.246s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.247s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_cppExport.cmake
+[2.247s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.247s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_generator_pyExport.cmake
+[2.247s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.247s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/cmake/rosidl_cmake-extras.cmake
+[2.247s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.248s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.248s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.248s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.248s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.248s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.248s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgsConfig.cmake
+[2.249s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgsConfig-version.cmake
+[2.249s] -- Up-to-date: /home/st/ywfBot_ws_v1.3/install/fairino_msgs/share/fairino_msgs/package.xml
+[2.552s] Invoked command in '/home/st/ywfBot_ws_v1.3/build/fairino_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/st/ywfBot_ws_v1.3/install/py_action_client:/home/st/ywfBot_ws_v1.3/install/py_action:/home/st/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/st/ros2_control_ws/install/rqt_controller_manager:/home/st/ros2_control_ws/install/ros2controlcli:/home/st/ros2_control_ws/install/ros2_controllers_test_nodes:/home/st/ros2_control_ws/install/ros2_control_demo_testing:/home/st/ywfBot_ws_v1.1/install/py_action_client:/home/st/ywfBot_ws_v1.1/install/py_action:/home/st/ywfBot_ws_v1.1/install/moveit2_ywf_interface:/home/st/ywfBot_ws_v1.1/install/moveit_ywf_msg:/home/st/ywfBot_ws_v1.1/install/fairino_hardware:/home/st/ywfBot_ws_v1.1/install/fairino_msgs:/home/st/ywfBot_ws/install/py_action_client:/home/st/ywfBot_ws/install/py_action:/home/st/ywfBot_ws/install/moveit2_ywf_interface:/home/st/ywfBot_ws/install/moveit_ywf_msg:/home/st/ywfBot_ws/install/frhal_msgs:/home/st/ywfBot_ws/install/fr_ros2:/home/st/moveit2_humble_ws/install/moveit_configs_utils:/home/st/moveit2_humble_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/st/ywfBot_ws_v1.3/build/fairino_msgs

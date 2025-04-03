@@ -17,7 +17,7 @@
             "request": "launch",
             //改成自己的要编译的文件
             //"program": "/home/st/ywfBot_ws/install/moveit2_ywf_interface/lib/moveit2_ywf_interface/main_moveit2_ywf_interf",
-            "program": "/home/st/ywfBot_ws/install/fr_ros2/lib/fr_ros2/ros2_cmd_server",
+            "program": "/home/st/ywfBot_ws_v1.3.1/install/fairino_hardware/lib/fairino_hardware/ros2_cmd_server",
             
             "args": [],
             "stopAtEntry": false,

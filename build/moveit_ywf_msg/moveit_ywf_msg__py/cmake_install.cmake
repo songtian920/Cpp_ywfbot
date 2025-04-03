@@ -1,8 +1,8 @@
-# Install script for directory: /home/st/ywfBot_ws/build/moveit_ywf_msg/moveit_ywf_msg__py
+# Install script for directory: /home/st/ywfBot_ws_v1.3/build/moveit_ywf_msg/moveit_ywf_msg__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/st/ywfBot_ws/install/moveit_ywf_msg")
+  set(CMAKE_INSTALL_PREFIX "/home/st/ywfBot_ws_v1.3/install/moveit_ywf_msg")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

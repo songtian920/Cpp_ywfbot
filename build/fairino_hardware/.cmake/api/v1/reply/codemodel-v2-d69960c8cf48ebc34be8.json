@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-debug-5d93cb4d3fdc6b6e228e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "fairino_hardware",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "fairino_hardware::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fairino_hardware-debug-33101b09b42632d6145f.json",
+					"name" : "fairino_hardware",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fairino_hardware_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fairino_hardware_uninstall-debug-b2de74253e3281ddf414.json",
+					"name" : "fairino_hardware_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_cmd_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_cmd_server-debug-04339e0f0166d9c0cd4d.json",
+					"name" : "ros2_cmd_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_test_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_test_client-debug-0ff241425b276a8699fb.json",
+					"name" : "srv_test_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-debug-5ff08c9fb2365f135f72.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/st/ywfBot_ws_v1.3/build/fairino_hardware",
+		"source" : "/home/st/ywfBot_ws_v1.3/src/frcobot_ros2-V3.0.0_robot3.7.6/fairino_hardware"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
